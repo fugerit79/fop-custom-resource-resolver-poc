@@ -34,11 +34,17 @@ This porject had been tested with the same behaviour with :
 
 **Some sample build logs are provided :**  
 1. [mvn clean install -P fop26 >> sample_build_log/build_log_profile_fop26_jdk8_win.txt 2>&1](sample_build_log/build_log_profile_fop26_jdk8_win.txt)  
-2. [mvn clean install -P fop26 >> sample_build_log/build_log_profile_fop27_jdk8_win.txt 2>&1](sample_build_log/build_log_profile_fop27_jdk8_win.txt)  
-3. [mvn clean install -P fop26 >> sample_build_log/build_log_profile_fop28_jdk8_win.txt 2>&1](sample_build_log/build_log_profile_fop28_jdk8_win.txt)  
+2. [mvn clean install -P fop27 >> sample_build_log/build_log_profile_fop27_jdk8_win.txt 2>&1](sample_build_log/build_log_profile_fop27_jdk8_win.txt)  
+3. [mvn clean install -P fop28 >> sample_build_log/build_log_profile_fop28_jdk8_win.txt 2>&1](sample_build_log/build_log_profile_fop28_jdk8_win.txt)  
 4. [mvn clean install -X -P fop26 >> sample_build_log/build_log_profile_fop26_jdk8_win.txt 2>&1](sample_build_log/build_log_profile_fop26_jdk8_win_debug.txt)  
-5. [mvn clean install -X -P fop27 >> sample_build_log/build_log_profile_fop26_jdk8_win.txt 2>&1](sample_build_log/build_log_profile_fop27_jdk8_win_debug.txt)  
-6. [mvn clean install -X -P fop28 >> sample_build_log/build_log_profile_fop26_jdk8_win.txt 2>&1](sample_build_log/build_log_profile_fop28_jdk8_win_debug.txt)  
+5. [mvn clean install -X -P fop27 >> sample_build_log/build_log_profile_fop27_jdk8_win.txt 2>&1](sample_build_log/build_log_profile_fop27_jdk8_win_debug.txt)  
+6. [mvn clean install -X -P fop28 >> sample_build_log/build_log_profile_fop28_jdk8_win.txt 2>&1](sample_build_log/build_log_profile_fop28_jdk8_win_debug.txt)  
+7. [mvn clean install -P fop26 >> sample_build_log/build_log_profile_fop26_jdk11_win.txt 2>&1](sample_build_log/build_log_profile_fop26_jdk11_win.txt)  
+8. [mvn clean install -P fop27 >> sample_build_log/build_log_profile_fop27_jdk11_win.txt 2>&1](sample_build_log/build_log_profile_fop27_jdk11_win.txt)  
+9. [mvn clean install -P fop28 >> sample_build_log/build_log_profile_fop28_jdk11_win.txt 2>&1](sample_build_log/build_log_profile_fop28_jdk11_win.txt)
+10. [mvn clean install -X -P fop26 >> sample_build_log/build_log_profile_fop26_jdk11_win.txt 2>&1](sample_build_log/build_log_profile_fop26_jdk11_win_debug.txt)  
+11. [mvn clean install -X -P fop27 >> sample_build_log/build_log_profile_fop27_jdk11_win.txt 2>&1](sample_build_log/build_log_profile_fop27_jdk11_win_debug.txt)  
+12. [mvn clean install -X -P fop28 >> sample_build_log/build_log_profile_fop28_jdk11_win.txt 2>&1](sample_build_log/build_log_profile_fop28_jdk11_win_debug.txt)   
 
 As can be noted, in the build linked to Apache FOP 2.6 is possible to read the log of the custom ResourceResolver : 
 
