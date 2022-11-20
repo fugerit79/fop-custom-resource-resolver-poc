@@ -22,7 +22,7 @@
 		<java-version-compliance>1.8</java-version-compliance>
 	    <maven.compiler.source>${java-version-compliance}</maven.compiler.source>
 	    <maven.compiler.target>${java-version-compliance}</maven.compiler.target>
-	    <fop-version>2.6</fop-version>
+	    <fop-version>2.8</fop-version>
 	</properties>
 
 	<licenses>

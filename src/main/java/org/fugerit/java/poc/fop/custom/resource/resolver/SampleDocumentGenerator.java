@@ -6,6 +6,7 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.InputStream;
 import java.io.OutputStream;
+import java.net.URI;
 
 import javax.xml.transform.Result;
 import javax.xml.transform.Source;
@@ -14,11 +15,12 @@ import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.sax.SAXResult;
 import javax.xml.transform.stream.StreamSource;
 
+import org.apache.fop.apps.EnvironmentalProfileFactory;
 import org.apache.fop.apps.Fop;
+import org.apache.fop.apps.FopConfParser;
 import org.apache.fop.apps.FopFactory;
 import org.apache.fop.apps.FopFactoryBuilder;
 import org.apache.fop.apps.MimeConstants;
-import org.apache.fop.configuration.DefaultConfigurationBuilder;
 import org.apache.xmlgraphics.io.ResourceResolver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -47,10 +49,10 @@ public class SampleDocumentGenerator {
 			// NOTE: this is the only step that has been changed from the sample :
 			//		https://xmlgraphics.apache.org/fop/2.8/embedding.html
 			//		to include a custom ResourceResolver
-			ResourceResolver resolver = new ClassLoaderResourceResolver();
-		    FopFactoryBuilder builder = new FopFactoryBuilder(new File(".").toURI(), resolver );
-		    builder = builder.setConfiguration(new DefaultConfigurationBuilder().build(fopConfigStream));
-		    FopFactory fopFactory = builder.build();
+			ResourceResolver resolver = new ClassLoaderResourceResolver();		    
+		    FopConfParser confParser =  new FopConfParser( fopConfigStream, EnvironmentalProfileFactory.createRestrictedIO(new URI("."), resolver) );
+		    FopFactoryBuilder confBuilder = confParser.getFopFactoryBuilder();
+		    FopFactory fopFactory = confBuilder.build();
 		    
 			// Step 2: Set up output stream.
 			// Note: Using BufferedOutputStream for performance reasons (helpful with FileOutputStreams).
