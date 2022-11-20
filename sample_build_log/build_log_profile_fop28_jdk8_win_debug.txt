@@ -1,0 +1,1384 @@
+Apache Maven 3.8.6 (84538c9988a25aec085021c365c560670ad80f63)
+Maven home: C:\workspace\runtime\java\apache-maven-3.8.6
+Java version: 1.8.0_333, vendor: Oracle Corporation, runtime: C:\workspace\runtime\java\jdk1.8.0_333\jre
+Default locale: it_IT, platform encoding: Cp1252
+OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
+[DEBUG] Created new class realm maven.api
+[DEBUG] Importing foreign packages into class realm maven.api
+[DEBUG]   Imported: javax.annotation.* < plexus.core
+[DEBUG]   Imported: javax.annotation.security.* < plexus.core
+[DEBUG]   Imported: javax.inject.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.classrealm < plexus.core
+[DEBUG]   Imported: org.apache.maven.cli < plexus.core
+[DEBUG]   Imported: org.apache.maven.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.exception < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution.scope < plexus.core
+[DEBUG]   Imported: org.apache.maven.lifecycle < plexus.core
+[DEBUG]   Imported: org.apache.maven.model < plexus.core
+[DEBUG]   Imported: org.apache.maven.monitor < plexus.core
+[DEBUG]   Imported: org.apache.maven.plugin < plexus.core
+[DEBUG]   Imported: org.apache.maven.profiles < plexus.core
+[DEBUG]   Imported: org.apache.maven.project < plexus.core
+[DEBUG]   Imported: org.apache.maven.reporting < plexus.core
+[DEBUG]   Imported: org.apache.maven.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.rtinfo < plexus.core
+[DEBUG]   Imported: org.apache.maven.settings < plexus.core
+[DEBUG]   Imported: org.apache.maven.toolchain < plexus.core
+[DEBUG]   Imported: org.apache.maven.usability < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authentication < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authorization < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.events < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.observers < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.proxy < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.resource < plexus.core
+[DEBUG]   Imported: org.codehaus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.* < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.component < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.configuration < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.container < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.context < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.lifecycle < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.logging < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.personality < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.* < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.artifact < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.collection < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.deployment < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.graph < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.installation < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.internal.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.metadata < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.repository < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.resolution < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.spi < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.transfer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.version < plexus.core
+[DEBUG]   Imported: org.fusesource.jansi.* < plexus.core
+[DEBUG]   Imported: org.slf4j.* < plexus.core
+[DEBUG]   Imported: org.slf4j.event.* < plexus.core
+[DEBUG]   Imported: org.slf4j.helpers.* < plexus.core
+[DEBUG]   Imported: org.slf4j.spi.* < plexus.core
+[DEBUG] Populating class realm maven.api
+[INFO] Error stacktraces are turned on.
+[DEBUG] Message scheme: color
+[DEBUG] Message styles: debug info warning error success failure strong mojo project
+[DEBUG] Reading global settings from C:\workspace\runtime\java\apache-maven-3.8.6\conf\settings.xml
+[DEBUG] Reading user settings from C:\Users\mttfranci\.m2\settings.xml
+[DEBUG] Reading global toolchains from C:\workspace\runtime\java\apache-maven-3.8.6\conf\toolchains.xml
+[DEBUG] Reading user toolchains from C:\Users\mttfranci\.m2\toolchains.xml
+[DEBUG] Using local repository at C:\workspace\runtime\java\maven_local_repo
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for C:\workspace\runtime\java\maven_local_repo
+[INFO] Scanning for projects...
+[DEBUG] Extension realms for project org.fugerit.java.poc:fop-custom-resource-resolver-poc:jar:1.0-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project org.fugerit.java:fj-bom:pom:0.2.2: (none)
+[DEBUG] Looking up lifecycle mappings for packaging pom from ClassRealm[plexus.core, parent: null]
+[DEBUG] === REACTOR BUILD PLAN ================================================
+[DEBUG] Project: org.fugerit.java.poc:fop-custom-resource-resolver-poc:jar:1.0-SNAPSHOT
+[DEBUG] Tasks:   [clean, install]
+[DEBUG] Style:   Regular
+[DEBUG] =======================================================================
+[INFO] 
+[INFO] -------< org.fugerit.java.poc:fop-custom-resource-resolver-poc >--------
+[INFO] Building fop-custom-resource-resolver-po 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for apache.snapshots (http://repository.apache.org/snapshots).
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       org.fugerit.java.poc:fop-custom-resource-resolver-poc:1.0-SNAPSHOT
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): [compile, runtime, test]
+[DEBUG] Repositories (dependencies): [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Repositories (plugins)     : [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-clean-plugin:2.5:clean (default-clean)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <directory default-value="${project.build.directory}"/>
+  <excludeDefaultDirectories default-value="false">${clean.excludeDefaultDirectories}</excludeDefaultDirectories>
+  <failOnError default-value="true">${maven.clean.failOnError}</failOnError>
+  <followSymLinks default-value="false">${clean.followSymLinks}</followSymLinks>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <reportDirectory default-value="${project.reporting.outputDirectory}"/>
+  <retryOnError default-value="true">${maven.clean.retryOnError}</retryOnError>
+  <skip default-value="false">${clean.skip}</skip>
+  <testOutputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <verbose>${clean.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:2.6:resources (default-resources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <escapeString>${maven.resources.escapeString}</escapeString>
+  <escapeWindowsPaths default-value="true">${maven.resources.escapeWindowsPaths}</escapeWindowsPaths>
+  <includeEmptyDirs default-value="false">${maven.resources.includeEmptyDirs}</includeEmptyDirs>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <overwrite default-value="false">${maven.resources.overwrite}</overwrite>
+  <project default-value="${project}"/>
+  <resources default-value="${project.resources}"/>
+  <session default-value="${session}"/>
+  <supportMultiLineFiltering default-value="false">${maven.resources.supportMultiLineFiltering}</supportMultiLineFiltering>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <classpathElements default-value="${project.compileClasspathElements}"/>
+  <compileSourceRoots default-value="${project.compileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedSourcesDirectory default-value="${project.build.directory}/generated-sources/annotations"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <mojoExecution>${mojoExecution}</mojoExecution>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <projectArtifact default-value="${project.artifact}"/>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <skipMain>${maven.main.skip}</skipMain>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.5">${maven.compiler.source}</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.5">${maven.compiler.target}</target>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+  <mavenSession default-value="${session}"/>
+  <session default-value="${session}"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:2.6:testResources (default-testResources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <escapeString>${maven.resources.escapeString}</escapeString>
+  <escapeWindowsPaths default-value="true">${maven.resources.escapeWindowsPaths}</escapeWindowsPaths>
+  <includeEmptyDirs default-value="false">${maven.resources.includeEmptyDirs}</includeEmptyDirs>
+  <outputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <overwrite default-value="false">${maven.resources.overwrite}</overwrite>
+  <project default-value="${project}"/>
+  <resources default-value="${project.testResources}"/>
+  <session default-value="${session}"/>
+  <skip>${maven.test.skip}</skip>
+  <supportMultiLineFiltering default-value="false">${maven.resources.supportMultiLineFiltering}</supportMultiLineFiltering>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.1:testCompile (default-testCompile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <classpathElements default-value="${project.testClasspathElements}"/>
+  <compileSourceRoots default-value="${project.testCompileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedTestSourcesDirectory default-value="${project.build.directory}/generated-test-sources/test-annotations"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <mojoExecution>${mojoExecution}</mojoExecution>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <skip>${maven.test.skip}</skip>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.5">${maven.compiler.source}</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.5">${maven.compiler.target}</target>
+  <testSource>${maven.compiler.testSource}</testSource>
+  <testTarget>${maven.compiler.testTarget}</testTarget>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+  <mavenSession default-value="${session}"/>
+  <session default-value="${session}"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-surefire-plugin:3.0.0-M7:test (default-test)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <additionalClasspathElements>${maven.test.additionalClasspath}</additionalClasspathElements>
+  <argLine>${argLine}</argLine>
+  <basedir default-value="${basedir}"/>
+  <childDelegation default-value="false">${childDelegation}</childDelegation>
+  <classesDirectory default-value="${project.build.outputDirectory}"/>
+  <classpathDependencyExcludes>${maven.test.dependency.excludes}</classpathDependencyExcludes>
+  <debugForkedProcess>${maven.surefire.debug}</debugForkedProcess>
+  <dependenciesToScan>${dependenciesToScan}</dependenciesToScan>
+  <disableXmlReport default-value="false">${disableXmlReport}</disableXmlReport>
+  <enableAssertions default-value="true">${enableAssertions}</enableAssertions>
+  <enableProcessChecker>${surefire.enableProcessChecker}</enableProcessChecker>
+  <encoding default-value="${project.reporting.outputEncoding}">${surefire.encoding}</encoding>
+  <excludeJUnit5Engines>${surefire.excludeJUnit5Engines}</excludeJUnit5Engines>
+  <excludedEnvironmentVariables>${surefire.excludedEnvironmentVariables}</excludedEnvironmentVariables>
+  <excludedGroups>${excludedGroups}</excludedGroups>
+  <excludes>${surefire.excludes}</excludes>
+  <excludesFile>${surefire.excludesFile}</excludesFile>
+  <failIfNoSpecifiedTests default-value="true">${surefire.failIfNoSpecifiedTests}</failIfNoSpecifiedTests>
+  <failIfNoTests default-value="false">${failIfNoTests}</failIfNoTests>
+  <failOnFlakeCount default-value="0">${surefire.failOnFlakeCount}</failOnFlakeCount>
+  <forkCount default-value="1">${forkCount}</forkCount>
+  <forkMode default-value="once">${forkMode}</forkMode>
+  <forkNode>${surefire.forkNode}</forkNode>
+  <forkedProcessExitTimeoutInSeconds default-value="30">${surefire.exitTimeout}</forkedProcessExitTimeoutInSeconds>
+  <forkedProcessTimeoutInSeconds>${surefire.timeout}</forkedProcessTimeoutInSeconds>
+  <groups>${groups}</groups>
+  <includeJUnit5Engines>${surefire.includeJUnit5Engines}</includeJUnit5Engines>
+  <includes>${surefire.includes}</includes>
+  <includesFile>${surefire.includesFile}</includesFile>
+  <junitArtifactName default-value="junit:junit">${junitArtifactName}</junitArtifactName>
+  <jvm>${jvm}</jvm>
+  <localRepository default-value="${localRepository}"/>
+  <objectFactory>${objectFactory}</objectFactory>
+  <parallel>${parallel}</parallel>
+  <parallelMavenExecution default-value="${session.parallel}"/>
+  <parallelOptimized default-value="true">${parallelOptimized}</parallelOptimized>
+  <parallelTestsTimeoutForcedInSeconds>${surefire.parallel.forcedTimeout}</parallelTestsTimeoutForcedInSeconds>
+  <parallelTestsTimeoutInSeconds>${surefire.parallel.timeout}</parallelTestsTimeoutInSeconds>
+  <perCoreThreadCount default-value="true">${perCoreThreadCount}</perCoreThreadCount>
+  <pluginArtifactMap>${plugin.artifactMap}</pluginArtifactMap>
+  <pluginDescriptor default-value="${plugin}"/>
+  <printSummary default-value="true">${surefire.printSummary}</printSummary>
+  <project default-value="${project}"/>
+  <projectArtifactMap>${project.artifactMap}</projectArtifactMap>
+  <projectBuildDirectory default-value="${project.build.directory}"/>
+  <projectRemoteRepositories default-value="${project.remoteArtifactRepositories}"/>
+  <redirectTestOutputToFile default-value="false">${maven.test.redirectTestOutputToFile}</redirectTestOutputToFile>
+  <remoteRepositories default-value="${project.pluginArtifactRepositories}"/>
+  <reportFormat default-value="brief">${surefire.reportFormat}</reportFormat>
+  <reportNameSuffix default-value="">${surefire.reportNameSuffix}</reportNameSuffix>
+  <reportsDirectory default-value="${project.build.directory}/surefire-reports"/>
+  <rerunFailingTestsCount default-value="0">${surefire.rerunFailingTestsCount}</rerunFailingTestsCount>
+  <reuseForks default-value="true">${reuseForks}</reuseForks>
+  <runOrder default-value="filesystem">${surefire.runOrder}</runOrder>
+  <runOrderRandomSeed>${surefire.runOrder.random.seed}</runOrderRandomSeed>
+  <session default-value="${session}"/>
+  <shutdown default-value="exit">${surefire.shutdown}</shutdown>
+  <skip default-value="false">${maven.test.skip}</skip>
+  <skipAfterFailureCount default-value="0">${surefire.skipAfterFailureCount}</skipAfterFailureCount>
+  <skipExec>${maven.test.skip.exec}</skipExec>
+  <skipTests default-value="false">false</skipTests>
+  <suiteXmlFiles>${surefire.suiteXmlFiles}</suiteXmlFiles>
+  <systemPropertiesFile>${surefire.systemPropertiesFile}</systemPropertiesFile>
+  <tempDir default-value="surefire">${tempDir}</tempDir>
+  <test>${test}</test>
+  <testClassesDirectory default-value="${project.build.testOutputDirectory}"/>
+  <testFailureIgnore default-value="false">${maven.test.failure.ignore}</testFailureIgnore>
+  <testNGArtifactName default-value="org.testng:testng">${testNGArtifactName}</testNGArtifactName>
+  <testSourceDirectory default-value="${project.build.testSourceDirectory}"/>
+  <threadCount>${threadCount}</threadCount>
+  <threadCountClasses default-value="0">${threadCountClasses}</threadCountClasses>
+  <threadCountMethods default-value="0">${threadCountMethods}</threadCountMethods>
+  <threadCountSuites default-value="0">${threadCountSuites}</threadCountSuites>
+  <trimStackTrace default-value="false">${trimStackTrace}</trimStackTrace>
+  <useFile default-value="true">${surefire.useFile}</useFile>
+  <useManifestOnlyJar default-value="true">${surefire.useManifestOnlyJar}</useManifestOnlyJar>
+  <useModulePath default-value="true">${surefire.useModulePath}</useModulePath>
+  <useSystemClassLoader default-value="true">${surefire.useSystemClassLoader}</useSystemClassLoader>
+  <useUnlimitedThreads default-value="false">${useUnlimitedThreads}</useUnlimitedThreads>
+  <workingDirectory>${basedir}</workingDirectory>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-jar-plugin:3.3.0:jar (default-jar)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <classesDirectory default-value="${project.build.outputDirectory}"/>
+  <finalName default-value="${project.build.finalName}"/>
+  <forceCreation default-value="false">${maven.jar.forceCreation}</forceCreation>
+  <outputDirectory default-value="${project.build.directory}"/>
+  <outputTimestamp default-value="${project.build.outputTimestamp}"/>
+  <project default-value="${project}"/>
+  <session default-value="${session}"/>
+  <skipIfEmpty default-value="false"/>
+  <useDefaultManifestFile default-value="false">${jar.useDefaultManifestFile}</useDefaultManifestFile>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-install-plugin:2.4:install (default-install)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <artifact default-value="${project.artifact}"/>
+  <attachedArtifacts default-value="${project.attachedArtifacts}"/>
+  <createChecksum default-value="false">${createChecksum}</createChecksum>
+  <localRepository>${localRepository}</localRepository>
+  <packaging default-value="${project.packaging}"/>
+  <pomFile default-value="${project.file}"/>
+  <skip default-value="false">${maven.install.skip}</skip>
+  <updateReleaseInfo default-value="false">${updateReleaseInfo}</updateReleaseInfo>
+</configuration>
+[DEBUG] =======================================================================
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for apache.snapshots (http://people.apache.org/repo/m2-snapshot-repository).
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=1693000, ConflictMarker.markTime=740500, ConflictMarker.nodeCount=171, ConflictIdSorter.graphTime=1354300, ConflictIdSorter.topsortTime=679900, ConflictIdSorter.conflictIdCount=36, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=6683400, ConflictResolver.conflictItemCount=122, DefaultDependencyCollector.collectTime=484769200, DefaultDependencyCollector.transformTime=14001700}
+[DEBUG] org.fugerit.java.poc:fop-custom-resource-resolver-poc:jar:1.0-SNAPSHOT
+[DEBUG]    org.apache.xmlgraphics:fop:jar:2.8:compile
+[DEBUG]       org.apache.xmlgraphics:fop-util:jar:2.8:compile
+[DEBUG]          org.apache.xmlgraphics:xmlgraphics-commons:jar:2.8:compile
+[DEBUG]       org.apache.xmlgraphics:fop-events:jar:2.8:compile
+[DEBUG]          com.thoughtworks.qdox:qdox:jar:1.12:compile
+[DEBUG]          commons-io:commons-io:jar:2.11.0:compile
+[DEBUG]       org.apache.xmlgraphics:fop-core:jar:2.8:compile
+[DEBUG]          org.apache.xmlgraphics:batik-anim:jar:1.16:compile
+[DEBUG]             org.apache.xmlgraphics:batik-css:jar:1.16:compile
+[DEBUG]             org.apache.xmlgraphics:batik-dom:jar:1.16:compile
+[DEBUG]                xml-apis:xml-apis:jar:1.4.01:compile
+[DEBUG]             org.apache.xmlgraphics:batik-ext:jar:1.16:compile
+[DEBUG]             org.apache.xmlgraphics:batik-parser:jar:1.16:compile
+[DEBUG]             org.apache.xmlgraphics:batik-shared-resources:jar:1.16:compile
+[DEBUG]             org.apache.xmlgraphics:batik-svg-dom:jar:1.16:compile
+[DEBUG]             org.apache.xmlgraphics:batik-util:jar:1.16:compile
+[DEBUG]                org.apache.xmlgraphics:batik-constants:jar:1.16:compile
+[DEBUG]                org.apache.xmlgraphics:batik-i18n:jar:1.16:compile
+[DEBUG]             xml-apis:xml-apis-ext:jar:1.3.04:compile
+[DEBUG]          org.apache.xmlgraphics:batik-awt-util:jar:1.16:compile
+[DEBUG]          org.apache.xmlgraphics:batik-bridge:jar:1.16:compile
+[DEBUG]             org.apache.xmlgraphics:batik-script:jar:1.16:compile
+[DEBUG]             org.apache.xmlgraphics:batik-xml:jar:1.16:compile
+[DEBUG]          org.apache.xmlgraphics:batik-extension:jar:1.16:compile
+[DEBUG]          org.apache.xmlgraphics:batik-gvt:jar:1.16:compile
+[DEBUG]          org.apache.xmlgraphics:batik-transcoder:jar:1.16:compile
+[DEBUG]             org.apache.xmlgraphics:batik-svggen:jar:1.16:compile
+[DEBUG]          commons-logging:commons-logging:jar:1.0.4:compile
+[DEBUG]          org.apache.pdfbox:fontbox:jar:2.0.24:compile
+[DEBUG]    org.slf4j:slf4j-api:jar:1.7.36:compile
+[DEBUG]    org.slf4j:jcl-over-slf4j:jar:1.7.36:test
+[DEBUG]    org.apache.logging.log4j:log4j-slf4j-impl:jar:2.19.0:test
+[DEBUG]       org.apache.logging.log4j:log4j-api:jar:2.19.0:test
+[DEBUG]       org.apache.logging.log4j:log4j-core:jar:2.19.0:test
+[DEBUG]    junit:junit:jar:4.13.2:test
+[DEBUG]       org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ fop-custom-resource-resolver-poc ---
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=70400, ConflictMarker.markTime=82700, ConflictMarker.nodeCount=3, ConflictIdSorter.graphTime=266800, ConflictIdSorter.topsortTime=16000, ConflictIdSorter.conflictIdCount=3, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=168300, ConflictResolver.conflictItemCount=3, DefaultDependencyCollector.collectTime=23966300, DefaultDependencyCollector.transformTime=677100}
+[DEBUG] org.apache.maven.plugins:maven-clean-plugin:jar:2.5
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.5
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.5
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.5
+[DEBUG]   Included: org.apache.maven.plugins:maven-clean-plugin:jar:2.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-clean-plugin:2.5:clean from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-clean-plugin:2.5, parent: sun.misc.Launcher$AppClassLoader@4e25154f]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-clean-plugin:2.5:clean' with basic configurator -->
+[DEBUG]   (f) directory = C:\workspace\git\fop-custom-resource-resolver-poc\target
+[DEBUG]   (f) excludeDefaultDirectories = false
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) followSymLinks = false
+[DEBUG]   (f) outputDirectory = C:\workspace\git\fop-custom-resource-resolver-poc\target\classes
+[DEBUG]   (f) reportDirectory = C:\workspace\git\fop-custom-resource-resolver-poc\target\site
+[DEBUG]   (f) retryOnError = true
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) testOutputDirectory = C:\workspace\git\fop-custom-resource-resolver-poc\target\test-classes
+[DEBUG] -- end configuration --
+[INFO] Deleting C:\workspace\git\fop-custom-resource-resolver-poc\target
+[INFO] Deleting file C:\workspace\git\fop-custom-resource-resolver-poc\target\test-classes\test\TestDocGeneration.class
+[INFO] Deleting directory C:\workspace\git\fop-custom-resource-resolver-poc\target\test-classes\test
+[INFO] Deleting file C:\workspace\git\fop-custom-resource-resolver-poc\target\test-classes\log4j2.xml
+[INFO] Deleting directory C:\workspace\git\fop-custom-resource-resolver-poc\target\test-classes
+[INFO] Deleting file C:\workspace\git\fop-custom-resource-resolver-poc\target\surefire-reports\test.TestDocGeneration.txt
+[INFO] Deleting file C:\workspace\git\fop-custom-resource-resolver-poc\target\surefire-reports\TEST-test.TestDocGeneration.xml
+[INFO] Deleting file C:\workspace\git\fop-custom-resource-resolver-poc\target\surefire-reports\2022-11-20T18-33-01_055-jvmRun1-events.bin
+[INFO] Deleting file C:\workspace\git\fop-custom-resource-resolver-poc\target\surefire-reports\2022-11-20T18-33-01_055-jvmRun1-commands.bin
+[INFO] Deleting directory C:\workspace\git\fop-custom-resource-resolver-poc\target\surefire-reports
+[INFO] Deleting file C:\workspace\git\fop-custom-resource-resolver-poc\target\myfile.pdf
+[INFO] Deleting file C:\workspace\git\fop-custom-resource-resolver-poc\target\maven-status\maven-compiler-plugin\testCompile\default-testCompile\inputFiles.lst
+[INFO] Deleting file C:\workspace\git\fop-custom-resource-resolver-poc\target\maven-status\maven-compiler-plugin\testCompile\default-testCompile\createdFiles.lst
+[INFO] Deleting directory C:\workspace\git\fop-custom-resource-resolver-poc\target\maven-status\maven-compiler-plugin\testCompile\default-testCompile
+[INFO] Deleting directory C:\workspace\git\fop-custom-resource-resolver-poc\target\maven-status\maven-compiler-plugin\testCompile
+[INFO] Deleting file C:\workspace\git\fop-custom-resource-resolver-poc\target\maven-status\maven-compiler-plugin\compile\default-compile\inputFiles.lst
+[INFO] Deleting file C:\workspace\git\fop-custom-resource-resolver-poc\target\maven-status\maven-compiler-plugin\compile\default-compile\createdFiles.lst
+[INFO] Deleting directory C:\workspace\git\fop-custom-resource-resolver-poc\target\maven-status\maven-compiler-plugin\compile\default-compile
+[INFO] Deleting directory C:\workspace\git\fop-custom-resource-resolver-poc\target\maven-status\maven-compiler-plugin\compile
+[INFO] Deleting directory C:\workspace\git\fop-custom-resource-resolver-poc\target\maven-status\maven-compiler-plugin
+[INFO] Deleting directory C:\workspace\git\fop-custom-resource-resolver-poc\target\maven-status
+[INFO] Deleting directory C:\workspace\git\fop-custom-resource-resolver-poc\target\generated-test-sources\test-annotations
+[INFO] Deleting directory C:\workspace\git\fop-custom-resource-resolver-poc\target\generated-test-sources
+[INFO] Deleting directory C:\workspace\git\fop-custom-resource-resolver-poc\target\generated-sources\annotations
+[INFO] Deleting directory C:\workspace\git\fop-custom-resource-resolver-poc\target\generated-sources
+[INFO] Deleting file C:\workspace\git\fop-custom-resource-resolver-poc\target\classes\org\fugerit\java\poc\fop\custom\resource\resolver\SampleDocumentGenerator.class
+[INFO] Deleting file C:\workspace\git\fop-custom-resource-resolver-poc\target\classes\org\fugerit\java\poc\fop\custom\resource\resolver\ClassLoaderResourceResolver.class
+[INFO] Deleting directory C:\workspace\git\fop-custom-resource-resolver-poc\target\classes\org\fugerit\java\poc\fop\custom\resource\resolver
+[INFO] Deleting directory C:\workspace\git\fop-custom-resource-resolver-poc\target\classes\org\fugerit\java\poc\fop\custom\resource
+[INFO] Deleting directory C:\workspace\git\fop-custom-resource-resolver-poc\target\classes\org\fugerit\java\poc\fop\custom
+[INFO] Deleting directory C:\workspace\git\fop-custom-resource-resolver-poc\target\classes\org\fugerit\java\poc\fop
+[INFO] Deleting directory C:\workspace\git\fop-custom-resource-resolver-poc\target\classes\org\fugerit\java\poc
+[INFO] Deleting directory C:\workspace\git\fop-custom-resource-resolver-poc\target\classes\org\fugerit\java
+[INFO] Deleting directory C:\workspace\git\fop-custom-resource-resolver-poc\target\classes\org\fugerit
+[INFO] Deleting directory C:\workspace\git\fop-custom-resource-resolver-poc\target\classes\org
+[INFO] Deleting file C:\workspace\git\fop-custom-resource-resolver-poc\target\classes\font\TitilliumWeb-Regular.ttf
+[INFO] Deleting file C:\workspace\git\fop-custom-resource-resolver-poc\target\classes\font\TitilliumWeb-Italic.ttf
+[INFO] Deleting file C:\workspace\git\fop-custom-resource-resolver-poc\target\classes\font\TitilliumWeb-BoldItalic.ttf
+[INFO] Deleting file C:\workspace\git\fop-custom-resource-resolver-poc\target\classes\font\TitilliumWeb-Bold.ttf
+[INFO] Deleting directory C:\workspace\git\fop-custom-resource-resolver-poc\target\classes\font
+[INFO] Deleting directory C:\workspace\git\fop-custom-resource-resolver-poc\target\classes
+[INFO] Deleting directory C:\workspace\git\fop-custom-resource-resolver-poc\target
+[DEBUG] Skipping non-existing directory C:\workspace\git\fop-custom-resource-resolver-poc\target\classes
+[DEBUG] Skipping non-existing directory C:\workspace\git\fop-custom-resource-resolver-poc\target\test-classes
+[DEBUG] Skipping non-existing directory C:\workspace\git\fop-custom-resource-resolver-poc\target\site
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ fop-custom-resource-resolver-poc ---
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for codehaus.snapshots (http://snapshots.repository.codehaus.org).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for snapshots (http://snapshots.maven.codehaus.org/maven2).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for central (http://repo1.maven.org/maven2).
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=186500, ConflictMarker.markTime=80700, ConflictMarker.nodeCount=77, ConflictIdSorter.graphTime=91500, ConflictIdSorter.topsortTime=29200, ConflictIdSorter.conflictIdCount=26, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1154800, ConflictResolver.conflictItemCount=74, DefaultDependencyCollector.collectTime=177766700, DefaultDependencyCollector.transformTime=1574300}
+[DEBUG] org.apache.maven.plugins:maven-resources-plugin:jar:2.6
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-core:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6:compile
+[DEBUG]       org.apache.maven.reporting:maven-reporting-api:jar:2.0.6:compile
+[DEBUG]          org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.0.6:compile
+[DEBUG]       commons-cli:commons-cli:jar:1.0:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0.6:compile
+[DEBUG]       org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:compile
+[DEBUG]       classworlds:classworlds:jar:1.1:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-settings:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-model:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-monitor:jar:2.0.6:compile
+[DEBUG]    org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]       junit:junit:jar:3.8.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:2.0.5:compile
+[DEBUG]    org.apache.maven.shared:maven-filtering:jar:1.1:compile
+[DEBUG]       org.sonatype.plexus:plexus-build-api:jar:0.0.4:compile
+[DEBUG]    org.codehaus.plexus:plexus-interpolation:jar:1.13:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.6
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.6
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.6
+[DEBUG]   Included: org.apache.maven.plugins:maven-resources-plugin:jar:2.6
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.0.6
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7
+[DEBUG]   Included: commons-cli:commons-cli:jar:1.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:2.0.5
+[DEBUG]   Included: org.apache.maven.shared:maven-filtering:jar:1.1
+[DEBUG]   Included: org.sonatype.plexus:plexus-build-api:jar:0.0.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.13
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:2.6:resources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:2.6, parent: sun.misc.Launcher$AppClassLoader@4e25154f]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:2.6:resources' with basic configurator -->
+[DEBUG]   (f) buildFilters = []
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = C:\workspace\git\fop-custom-resource-resolver-poc\target\classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: org.fugerit.java.poc:fop-custom-resource-resolver-poc:1.0-SNAPSHOT @ C:\workspace\git\fop-custom-resource-resolver-poc\pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: C:\workspace\git\fop-custom-resource-resolver-poc\src\main\resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@28fa700e
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = true
+[DEBUG] -- end configuration --
+[DEBUG] properties used {env.OLDPWD=C:/workspace/git/fop-custom-resource-resolver-poc, file.encoding.pkg=sun.io, env.ACLOCAL_PATH=C:\Program Files\Git\mingw64\share\aclocal;C:\Program Files\Git\usr\share\aclocal, java.home=C:\workspace\runtime\java\jdk1.8.0_333\jre, env.DISPLAY=needs-to-be-defined, env.JAVA_HOME_8=C:\workspace\runtime\java\jdk1.8.0_333, classworlds.conf=C:/workspace/runtime/java/apache-maven-3.8.6/bin/m2.conf, java.endorsed.dirs=C:\workspace\runtime\java\jdk1.8.0_333\jre\lib\endorsed, env.USERNAME=mttfranci, env.OUTLOOK=C:/Program Files/Microsoft Office/Office16, sun.os.patch.level=, java.vendor.url=http://java.oracle.com/, env.COMPUTERNAME=MTTFRANCI-P, env.ORIGINAL_PATH=C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\mttfranci\bin;%JAVA_HOME%\bin;C:\workspace\runtime\java\apache-maven-3.8.3\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\Enterprise Vault\EVClient;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\mttfranci\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\mttfranci\AppData\Local\Microsoft\WindowsApps;C:\Users\mttfranci\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\mttfranci\AppData\Roaming\npm;C:\Users\mttfranci\AppData\Roaming\nvm;C:\Program Files\nodejs, env.TERM_PROGRAM_VERSION=3.4.6, mvn-surefire-version=3.0.0-M7, java.version=1.8.0_333, env.DRIVERDATA=C:\Windows\System32\Drivers\DriverData, env.FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer, env.MSYSTEM_CARCH=x86_64, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, env.USERPROFILE=C:\Users\mttfranci, env.PLINK_PROTOCOL=ssh, user.name=mttfranci, sun.io.unicode.encoding=UnicodeLittle, env.JAVA_HOME_11=C:\workspace\runtime\java\jdk-11.0.16, sun.jnu.encoding=Cp1252, java.runtime.name=Java(TM) SE Runtime Environment, env.LOCALAPPDATA=C:\Users\mttfranci\AppData\Local, env.SSH_ASKPASS=C:/Program Files/Git/mingw64/libexec/git-core/git-gui--askpass, env.COMMONPROGRAMW6432=C:\Program Files\Common Files, mvn-javadoc-version=3.4.1, java.specification.name=Java Platform API Specification, common-compress-version=1.22, user.timezone=Europe/Berlin, user.script=, path.separator=;, env.MAVEN_CMD_LINE_ARGS= clean install -X -P fop28, env.PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 142 Stepping 12, GenuineIntel, file.encoding=Cp1252, mvn-source-version=3.2.1, env.HOME=C:\Users\mttfranci, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher clean install -X -P fop28, env.MANPATH=C:\Program Files\Git\mingw64\local\man;C:\Program Files\Git\mingw64\share\man;C:\Program Files\Git\usr\local\man;C:\Program Files\Git\usr\share\man;C:\Program Files\Git\usr\man;C:\Program Files\Git\share\man, env.NUMBER_OF_PROCESSORS=4, env.APPDATA=C:\Users\mttfranci\AppData\Roaming, env.WINDIR=C:\Windows, env.HOSTNAME=mttfranci-p, java.io.tmpdir=C:\Users\MTTFRA~1\AppData\Local\Temp\, user.language=it, line.separator=
+, dbcp2-version=2.9.0, slf4j-version=1.7.36, log4j-slf4j-impl-version=2.19.0, env.NPM=C:/Users/apaolacci/AppData/Roaming/npm, env.COMMONPROGRAMFILES=C:\Program Files\Common Files, java.vm.info=mixed mode, fop-version=2.8, mvn-gpg-version=3.0.1, sun.desktop=windows, java.vm.specification.name=Java Virtual Machine Specification, junit-version=4.13.2, env.PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, env.ONEDRIVE=E:\onedrive\OneDrive - Sogei, env.USERDOMAIN_ROAMINGPROFILE=MTTFRANCI-P, j2ee-version-compliance=6.0, env.LOGONSERVER=\\MTTFRANCI-P, env.PSMODULEPATH=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules, env.LC_CTYPE=it_IT.UTF-8, java.awt.printerjob=sun.awt.windows.WPrinterJob, env.GIT=C:/Program Files/Git, env.PUBLIC=C:\Users\Public, env.CHROME=C:/Program Files (x86)/Google/Chrome/Application, env.USERDOMAIN=MTTFRANCI-P, env.MONGO_SHELL=H:/mongodb/mongosh-0.12.0-win32/bin, env.ORIGINAL_TEMP=C:/Users/MTTFRA~1/AppData/Local/Temp, env.PROCESSOR_LEVEL=6, env.PROGRAMFILES(X86)=C:\Program Files (x86), env.MSYSTEM_PREFIX=C:/Program Files/Git/mingw64, env.MINGW_CHOST=x86_64-w64-mingw32, os.name=Windows 10, dbcp-version=1.4, java.specification.vendor=Oracle Corporation, org.tukaani.xz-version=1.9, env.TMP=C:\Users\MTTFRA~1\AppData\Local\Temp, env.TERM=xterm, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, env.OS=Windows_NT, java.library.path=C:\workspace\runtime\java\jdk1.8.0_333\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\workspace\runtime\java\apache-maven-3.8.6\bin;C:\Users\mttfranci\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\mttfranci\bin;%JAVA_HOME%\bin;C:\workspace\runtime\java\apache-maven-3.8.3\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\Enterprise Vault\EVClient;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\mttfranci\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\mttfranci\AppData\Local\Microsoft\WindowsApps;C:\Users\mttfranci\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\mttfranci\AppData\Roaming\npm;C:\Users\mttfranci\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;C:\workspace\runtime\java\jdk1.8.0_333\bin;C:\workspace\runtime\java\apache-maven-3.8.6\bin;C:\Program Files (x86)\Google\Chrome\Application;C:\Program Files\Microsoft Office\Office16;C:\Program Files\Git;C:\Users\apaolacci\AppData\Roaming\npm;H:\mongodb\mongosh-0.12.0-win32\bin;., env.PROGRAMW6432=C:\Program Files, env.PATH=C:\workspace\runtime\java\apache-maven-3.8.6\bin;C:\Users\mttfranci\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\mttfranci\bin;%JAVA_HOME%\bin;C:\workspace\runtime\java\apache-maven-3.8.3\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\Enterprise Vault\EVClient;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\mttfranci\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\mttfranci\AppData\Local\Microsoft\WindowsApps;C:\Users\mttfranci\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\mttfranci\AppData\Roaming\npm;C:\Users\mttfranci\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;C:\workspace\runtime\java\jdk1.8.0_333\bin;C:\workspace\runtime\java\apache-maven-3.8.6\bin;C:\Program Files (x86)\Google\Chrome\Application;C:\Program Files\Microsoft Office\Office16;C:\Program Files\Git;C:\Users\apaolacci\AppData\Roaming\npm;H:\mongodb\mongosh-0.12.0-win32\bin, library.jansi.path=C:/workspace/runtime/java/apache-maven-3.8.6/lib/jansi-native, env.INFOPATH=C:\Program Files\Git\usr\local\info;C:\Program Files\Git\usr\share\info;C:\Program Files\Git\usr\info;C:\Program Files\Git\share\info, java.class.version=52.0, env.SHLVL=1, maven.multiModuleProjectDirectory=C:/workspace/git/fop-custom-resource-resolver-poc, env.HOMEDRIVE=C:, env.SYSTEMROOT=C:\Windows, env.COMSPEC=C:\Windows\system32\cmd.exe, sun.boot.library.path=C:\workspace\runtime\java\jdk1.8.0_333\jre\bin, java-version-compliance=1.8, project.build.sourceEncoding=UTF-8, env.SYSTEMDRIVE=C:, env.PROCESSOR_REVISION=8e0c, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, user.variant=, env.MINGW_PACKAGE_PREFIX=mingw-w64-x86_64, mvn-jar-version=3.3.0, env.CONFIG_SITE=C:/Program Files/Git/mingw64/etc/config.site, env.TERM_PROGRAM=mintty, env.PROGRAMFILES=C:\Program Files, java.vm.specification.version=1.8, hsqldb-version=2.5.2, common-codec-version=1.15, env.PROGRAMDATA=C:\ProgramData, awt.toolkit=sun.awt.windows.WToolkit, env.MAVEN_HOME=C:/workspace/runtime/java/apache-maven-3.8.6, sun.cpu.isalist=amd64, env.MAVEN_PROJECTBASEDIR=C:/workspace/git/fop-custom-resource-resolver-poc, java.ext.dirs=C:\workspace\runtime\java\jdk1.8.0_333\jre\lib\ext;C:\Windows\Sun\Java\lib\ext, os.version=10.0, user.home=C:\Users\mttfranci, java.vm.vendor=Oracle Corporation, env.PKG_CONFIG_PATH=C:\Program Files\Git\mingw64\lib\pkgconfig;C:\Program Files\Git\mingw64\share\pkgconfig, env.JAVA_HOME=C:/workspace/runtime/java/jdk1.8.0_333, user.dir=C:\workspace\git\fop-custom-resource-resolver-poc, maven.conf=C:/workspace/runtime/java/apache-maven-3.8.6/conf, env.MINGW_PREFIX=C:/Program Files/Git/mingw64, env.COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files, env.PWD=C:/workspace/git/fop-custom-resource-resolver-poc, sun.cpu.endian=little, env.ALLUSERSPROFILE=C:\ProgramData, env.NVM_SYMLINK=C:\Program Files\nodejs, env.TMPDIR=C:\Users\MTTFRA~1\AppData\Local\Temp, poi-version=4.1.2, env.PROCESSOR_ARCHITECTURE=AMD64, java.vm.version=25.333-b02, java.class.path=C:/workspace/runtime/java/apache-maven-3.8.6/boot/plexus-classworlds-2.6.0.jar, env.=::=::\, env.HOMEPATH=\Users\mttfranci, env.NVM_HOME=C:\Users\mttfranci\AppData\Roaming\nvm, os.arch=amd64, maven.build.version=Apache Maven 3.8.6 (84538c9988a25aec085021c365c560670ad80f63), env.MSYSTEM_CHOST=x86_64-w64-mingw32, env.ONEDRIVECOMMERCIAL=E:\onedrive\OneDrive - Sogei, env.SESSIONNAME=Console, sun.java.launcher=SUN_STANDARD, mvn-shade-version=3.4.1, nexus-version=1.6.8, java.vm.specification.vendor=Oracle Corporation, file.separator=\, java.runtime.version=1.8.0_333-b02, sun.boot.class.path=C:\workspace\runtime\java\jdk1.8.0_333\jre\lib\resources.jar;C:\workspace\runtime\java\jdk1.8.0_333\jre\lib\rt.jar;C:\workspace\runtime\java\jdk1.8.0_333\jre\lib\sunrsasign.jar;C:\workspace\runtime\java\jdk1.8.0_333\jre\lib\jsse.jar;C:\workspace\runtime\java\jdk1.8.0_333\jre\lib\jce.jar;C:\workspace\runtime\java\jdk1.8.0_333\jre\lib\charsets.jar;C:\workspace\runtime\java\jdk1.8.0_333\jre\lib\jfr.jar;C:\workspace\runtime\java\jdk1.8.0_333\jre\classes, env.EXEPATH=C:\Program Files\Git, maven.version=3.8.6, env.TEMP=C:\Users\MTTFRA~1\AppData\Local\Temp, env.ORIGINAL_TMP=C:/Users/MTTFRA~1/AppData/Local/Temp, user.country=IT, env.FPS_BROWSER_USER_PROFILE_STRING=Default, maven.home=C:\workspace\runtime\java\apache-maven-3.8.6, env.SHELL=C:\Program Files\Git\usr\bin\bash.exe, maven.compiler.target=1.8, env.=E:=E:\, java.vendor=Oracle Corporation, maven.compiler.source=1.8, java.specification.version=1.8, sun.arch.data.model=64, env.MSYSTEM=MINGW64}
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[DEBUG] resource with targetPath null
+directory C:\workspace\git\fop-custom-resource-resolver-poc\src\main\resources
+excludes []
+includes []
+[DEBUG] ignoreDelta true
+[INFO] Copying 4 resources
+[DEBUG] file TitilliumWeb-Bold.ttf has a filtered file extension
+[DEBUG] copy C:\workspace\git\fop-custom-resource-resolver-poc\src\main\resources\font\TitilliumWeb-Bold.ttf to C:\workspace\git\fop-custom-resource-resolver-poc\target\classes\font\TitilliumWeb-Bold.ttf
+[DEBUG] file TitilliumWeb-BoldItalic.ttf has a filtered file extension
+[DEBUG] copy C:\workspace\git\fop-custom-resource-resolver-poc\src\main\resources\font\TitilliumWeb-BoldItalic.ttf to C:\workspace\git\fop-custom-resource-resolver-poc\target\classes\font\TitilliumWeb-BoldItalic.ttf
+[DEBUG] file TitilliumWeb-Italic.ttf has a filtered file extension
+[DEBUG] copy C:\workspace\git\fop-custom-resource-resolver-poc\src\main\resources\font\TitilliumWeb-Italic.ttf to C:\workspace\git\fop-custom-resource-resolver-poc\target\classes\font\TitilliumWeb-Italic.ttf
+[DEBUG] file TitilliumWeb-Regular.ttf has a filtered file extension
+[DEBUG] copy C:\workspace\git\fop-custom-resource-resolver-poc\src\main\resources\font\TitilliumWeb-Regular.ttf to C:\workspace\git\fop-custom-resource-resolver-poc\target\classes\font\TitilliumWeb-Regular.ttf
+[DEBUG] no use filter components
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ fop-custom-resource-resolver-poc ---
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for apache-snapshots (http://people.apache.org/repo/m2-snapshot-repository).
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=324500, ConflictMarker.markTime=176400, ConflictMarker.nodeCount=160, ConflictIdSorter.graphTime=79000, ConflictIdSorter.topsortTime=60800, ConflictIdSorter.conflictIdCount=43, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1560900, ConflictResolver.conflictItemCount=63, DefaultDependencyCollector.collectTime=358227400, DefaultDependencyCollector.transformTime=2234000}
+[DEBUG] org.apache.maven.plugins:maven-compiler-plugin:jar:3.1
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.9:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.9:compile
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:1.5.1:compile
+[DEBUG]    org.apache.maven:maven-core:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-model:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-project:jar:2.0.9:compile
+[DEBUG]          org.apache.maven:maven-plugin-registry:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-monitor:jar:2.0.9:compile
+[DEBUG]    org.apache.maven:maven-toolchain:jar:1.0:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-utils:jar:0.1:compile
+[DEBUG]       com.google.code.findbugs:jsr305:jar:2.0.1:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-incremental:jar:1.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile (version managed from default)
+[DEBUG]    org.codehaus.plexus:plexus-compiler-api:jar:2.2:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-manager:jar:2.2:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-javac:jar:2.2:runtime
+[DEBUG]    org.codehaus.plexus:plexus-container-default:jar:1.5.5:compile
+[DEBUG]       org.codehaus.plexus:plexus-classworlds:jar:2.2.2:compile
+[DEBUG]       org.apache.xbean:xbean-reflect:jar:3.4:compile
+[DEBUG]          log4j:log4j:jar:1.2.12:compile
+[DEBUG]          commons-logging:commons-logging-api:jar:1.1:compile
+[DEBUG]       com.google.collections:google-collections:jar:1.0:compile
+[DEBUG]       junit:junit:jar:3.8.2:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1
+[DEBUG]   Included: org.apache.maven.plugins:maven-compiler-plugin:jar:3.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:1.5.1
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:0.1
+[DEBUG]   Included: com.google.code.findbugs:jsr305:jar:2.0.1
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-incremental:jar:1.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-api:jar:2.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-manager:jar:2.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-javac:jar:2.2
+[DEBUG]   Included: org.apache.xbean:xbean-reflect:jar:3.4
+[DEBUG]   Included: log4j:log4j:jar:1.2.12
+[DEBUG]   Included: commons-logging:commons-logging-api:jar:1.1
+[DEBUG]   Included: com.google.collections:google-collections:jar:1.0
+[DEBUG]   Included: junit:junit:jar:3.8.2
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:3.1:compile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1, parent: sun.misc.Launcher$AppClassLoader@4e25154f]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:3.1:compile' with basic configurator -->
+[DEBUG]   (f) basedir = C:\workspace\git\fop-custom-resource-resolver-poc
+[DEBUG]   (f) buildDirectory = C:\workspace\git\fop-custom-resource-resolver-poc\target
+[DEBUG]   (f) classpathElements = [C:\workspace\git\fop-custom-resource-resolver-poc\target\classes, C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\fop\2.8\fop-2.8.jar, C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\fop-util\2.8\fop-util-2.8.jar, C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\xmlgraphics-commons\2.8\xmlgraphics-commons-2.8.jar, C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\fop-events\2.8\fop-events-2.8.jar, C:\workspace\runtime\java\maven_local_repo\com\thoughtworks\qdox\qdox\1.12\qdox-1.12.jar, C:\workspace\runtime\java\maven_local_repo\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar, C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\fop-core\2.8\fop-core-2.8.jar, C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-anim\1.16\batik-anim-1.16.jar, C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-css\1.16\batik-css-1.16.jar, C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-dom\1.16\batik-dom-1.16.jar, C:\workspace\runtime\java\maven_local_repo\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar, C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-ext\1.16\batik-ext-1.16.jar, C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-parser\1.16\batik-parser-1.16.jar, C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-shared-resources\1.16\batik-shared-resources-1.16.jar, C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-svg-dom\1.16\batik-svg-dom-1.16.jar, C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-util\1.16\batik-util-1.16.jar, C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-constants\1.16\batik-constants-1.16.jar, C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-i18n\1.16\batik-i18n-1.16.jar, C:\workspace\runtime\java\maven_local_repo\xml-apis\xml-apis-ext\1.3.04\xml-apis-ext-1.3.04.jar, C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-awt-util\1.16\batik-awt-util-1.16.jar, C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-bridge\1.16\batik-bridge-1.16.jar, C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-script\1.16\batik-script-1.16.jar, C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-xml\1.16\batik-xml-1.16.jar, C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-extension\1.16\batik-extension-1.16.jar, C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-gvt\1.16\batik-gvt-1.16.jar, C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-transcoder\1.16\batik-transcoder-1.16.jar, C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-svggen\1.16\batik-svggen-1.16.jar, C:\workspace\runtime\java\maven_local_repo\commons-logging\commons-logging\1.0.4\commons-logging-1.0.4.jar, C:\workspace\runtime\java\maven_local_repo\org\apache\pdfbox\fontbox\2.0.24\fontbox-2.0.24.jar, C:\workspace\runtime\java\maven_local_repo\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar]
+[DEBUG]   (f) compileSourceRoots = [C:\workspace\git\fop-custom-resource-resolver-poc\src\main\java]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) forceJavacCompilerUse = false
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) generatedSourcesDirectory = C:\workspace\git\fop-custom-resource-resolver-poc\target\generated-sources\annotations
+[DEBUG]   (f) mojoExecution = org.apache.maven.plugins:maven-compiler-plugin:3.1:compile {execution: default-compile}
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = C:\workspace\git\fop-custom-resource-resolver-poc\target\classes
+[DEBUG]   (f) projectArtifact = org.fugerit.java.poc:fop-custom-resource-resolver-poc:jar:1.0-SNAPSHOT
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = false
+[DEBUG]   (f) skipMultiThreadWarning = false
+[DEBUG]   (f) source = 1.8
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (f) target = 1.8
+[DEBUG]   (f) useIncrementalCompilation = true
+[DEBUG]   (f) verbose = false
+[DEBUG]   (f) mavenSession = org.apache.maven.execution.MavenSession@28fa700e
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@28fa700e
+[DEBUG] -- end configuration --
+[DEBUG] Using compiler 'javac'.
+[DEBUG] Source directories: [C:\workspace\git\fop-custom-resource-resolver-poc\src\main\java]
+[DEBUG] Classpath: [C:\workspace\git\fop-custom-resource-resolver-poc\target\classes
+ C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\fop\2.8\fop-2.8.jar
+ C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\fop-util\2.8\fop-util-2.8.jar
+ C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\xmlgraphics-commons\2.8\xmlgraphics-commons-2.8.jar
+ C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\fop-events\2.8\fop-events-2.8.jar
+ C:\workspace\runtime\java\maven_local_repo\com\thoughtworks\qdox\qdox\1.12\qdox-1.12.jar
+ C:\workspace\runtime\java\maven_local_repo\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar
+ C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\fop-core\2.8\fop-core-2.8.jar
+ C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-anim\1.16\batik-anim-1.16.jar
+ C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-css\1.16\batik-css-1.16.jar
+ C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-dom\1.16\batik-dom-1.16.jar
+ C:\workspace\runtime\java\maven_local_repo\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar
+ C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-ext\1.16\batik-ext-1.16.jar
+ C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-parser\1.16\batik-parser-1.16.jar
+ C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-shared-resources\1.16\batik-shared-resources-1.16.jar
+ C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-svg-dom\1.16\batik-svg-dom-1.16.jar
+ C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-util\1.16\batik-util-1.16.jar
+ C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-constants\1.16\batik-constants-1.16.jar
+ C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-i18n\1.16\batik-i18n-1.16.jar
+ C:\workspace\runtime\java\maven_local_repo\xml-apis\xml-apis-ext\1.3.04\xml-apis-ext-1.3.04.jar
+ C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-awt-util\1.16\batik-awt-util-1.16.jar
+ C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-bridge\1.16\batik-bridge-1.16.jar
+ C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-script\1.16\batik-script-1.16.jar
+ C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-xml\1.16\batik-xml-1.16.jar
+ C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-extension\1.16\batik-extension-1.16.jar
+ C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-gvt\1.16\batik-gvt-1.16.jar
+ C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-transcoder\1.16\batik-transcoder-1.16.jar
+ C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-svggen\1.16\batik-svggen-1.16.jar
+ C:\workspace\runtime\java\maven_local_repo\commons-logging\commons-logging\1.0.4\commons-logging-1.0.4.jar
+ C:\workspace\runtime\java\maven_local_repo\org\apache\pdfbox\fontbox\2.0.24\fontbox-2.0.24.jar
+ C:\workspace\runtime\java\maven_local_repo\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar]
+[DEBUG] Output directory: C:\workspace\git\fop-custom-resource-resolver-poc\target\classes
+[DEBUG] CompilerReuseStrategy: reuseCreated
+[DEBUG] useIncrementalCompilation enabled
+[DEBUG] Stale source detected: C:\workspace\git\fop-custom-resource-resolver-poc\src\main\java\org\fugerit\java\poc\fop\custom\resource\resolver\SampleDocumentGenerator.java
+[DEBUG] Stale source detected: C:\workspace\git\fop-custom-resource-resolver-poc\src\main\java\org\fugerit\java\poc\fop\custom\resource\resolver\ClassLoaderResourceResolver.java
+[INFO] Changes detected - recompiling the module!
+[DEBUG] Classpath:
+[DEBUG]  C:\workspace\git\fop-custom-resource-resolver-poc\target\classes
+[DEBUG]  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\fop\2.8\fop-2.8.jar
+[DEBUG]  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\fop-util\2.8\fop-util-2.8.jar
+[DEBUG]  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\xmlgraphics-commons\2.8\xmlgraphics-commons-2.8.jar
+[DEBUG]  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\fop-events\2.8\fop-events-2.8.jar
+[DEBUG]  C:\workspace\runtime\java\maven_local_repo\com\thoughtworks\qdox\qdox\1.12\qdox-1.12.jar
+[DEBUG]  C:\workspace\runtime\java\maven_local_repo\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar
+[DEBUG]  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\fop-core\2.8\fop-core-2.8.jar
+[DEBUG]  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-anim\1.16\batik-anim-1.16.jar
+[DEBUG]  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-css\1.16\batik-css-1.16.jar
+[DEBUG]  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-dom\1.16\batik-dom-1.16.jar
+[DEBUG]  C:\workspace\runtime\java\maven_local_repo\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar
+[DEBUG]  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-ext\1.16\batik-ext-1.16.jar
+[DEBUG]  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-parser\1.16\batik-parser-1.16.jar
+[DEBUG]  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-shared-resources\1.16\batik-shared-resources-1.16.jar
+[DEBUG]  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-svg-dom\1.16\batik-svg-dom-1.16.jar
+[DEBUG]  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-util\1.16\batik-util-1.16.jar
+[DEBUG]  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-constants\1.16\batik-constants-1.16.jar
+[DEBUG]  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-i18n\1.16\batik-i18n-1.16.jar
+[DEBUG]  C:\workspace\runtime\java\maven_local_repo\xml-apis\xml-apis-ext\1.3.04\xml-apis-ext-1.3.04.jar
+[DEBUG]  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-awt-util\1.16\batik-awt-util-1.16.jar
+[DEBUG]  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-bridge\1.16\batik-bridge-1.16.jar
+[DEBUG]  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-script\1.16\batik-script-1.16.jar
+[DEBUG]  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-xml\1.16\batik-xml-1.16.jar
+[DEBUG]  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-extension\1.16\batik-extension-1.16.jar
+[DEBUG]  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-gvt\1.16\batik-gvt-1.16.jar
+[DEBUG]  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-transcoder\1.16\batik-transcoder-1.16.jar
+[DEBUG]  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-svggen\1.16\batik-svggen-1.16.jar
+[DEBUG]  C:\workspace\runtime\java\maven_local_repo\commons-logging\commons-logging\1.0.4\commons-logging-1.0.4.jar
+[DEBUG]  C:\workspace\runtime\java\maven_local_repo\org\apache\pdfbox\fontbox\2.0.24\fontbox-2.0.24.jar
+[DEBUG]  C:\workspace\runtime\java\maven_local_repo\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar
+[DEBUG] Source roots:
+[DEBUG]  C:\workspace\git\fop-custom-resource-resolver-poc\src\main\java
+[DEBUG] Command line options:
+[DEBUG] -d C:\workspace\git\fop-custom-resource-resolver-poc\target\classes -classpath C:\workspace\git\fop-custom-resource-resolver-poc\target\classes;C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\fop\2.8\fop-2.8.jar;C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\fop-util\2.8\fop-util-2.8.jar;C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\xmlgraphics-commons\2.8\xmlgraphics-commons-2.8.jar;C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\fop-events\2.8\fop-events-2.8.jar;C:\workspace\runtime\java\maven_local_repo\com\thoughtworks\qdox\qdox\1.12\qdox-1.12.jar;C:\workspace\runtime\java\maven_local_repo\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\fop-core\2.8\fop-core-2.8.jar;C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-anim\1.16\batik-anim-1.16.jar;C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-css\1.16\batik-css-1.16.jar;C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-dom\1.16\batik-dom-1.16.jar;C:\workspace\runtime\java\maven_local_repo\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-ext\1.16\batik-ext-1.16.jar;C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-parser\1.16\batik-parser-1.16.jar;C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-shared-resources\1.16\batik-shared-resources-1.16.jar;C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-svg-dom\1.16\batik-svg-dom-1.16.jar;C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-util\1.16\batik-util-1.16.jar;C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-constants\1.16\batik-constants-1.16.jar;C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-i18n\1.16\batik-i18n-1.16.jar;C:\workspace\runtime\java\maven_local_repo\xml-apis\xml-apis-ext\1.3.04\xml-apis-ext-1.3.04.jar;C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-awt-util\1.16\batik-awt-util-1.16.jar;C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-bridge\1.16\batik-bridge-1.16.jar;C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-script\1.16\batik-script-1.16.jar;C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-xml\1.16\batik-xml-1.16.jar;C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-extension\1.16\batik-extension-1.16.jar;C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-gvt\1.16\batik-gvt-1.16.jar;C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-transcoder\1.16\batik-transcoder-1.16.jar;C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-svggen\1.16\batik-svggen-1.16.jar;C:\workspace\runtime\java\maven_local_repo\commons-logging\commons-logging\1.0.4\commons-logging-1.0.4.jar;C:\workspace\runtime\java\maven_local_repo\org\apache\pdfbox\fontbox\2.0.24\fontbox-2.0.24.jar;C:\workspace\runtime\java\maven_local_repo\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar; -sourcepath C:\workspace\git\fop-custom-resource-resolver-poc\src\main\java; -s C:\workspace\git\fop-custom-resource-resolver-poc\target\generated-sources\annotations -g -nowarn -target 1.8 -source 1.8 -encoding UTF-8
+[DEBUG] incrementalBuildHelper#beforeRebuildExecution
+[INFO] Compiling 2 source files to C:\workspace\git\fop-custom-resource-resolver-poc\target\classes
+[DEBUG] incrementalBuildHelper#afterRebuildExecution
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ fop-custom-resource-resolver-poc ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:2.6:testResources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:2.6, parent: sun.misc.Launcher$AppClassLoader@4e25154f]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:2.6:testResources' with basic configurator -->
+[DEBUG]   (f) buildFilters = []
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = C:\workspace\git\fop-custom-resource-resolver-poc\target\test-classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: org.fugerit.java.poc:fop-custom-resource-resolver-poc:1.0-SNAPSHOT @ C:\workspace\git\fop-custom-resource-resolver-poc\pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: C:\workspace\git\fop-custom-resource-resolver-poc\src\test\resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@28fa700e
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = true
+[DEBUG] -- end configuration --
+[DEBUG] properties used {env.OLDPWD=C:/workspace/git/fop-custom-resource-resolver-poc, file.encoding.pkg=sun.io, env.ACLOCAL_PATH=C:\Program Files\Git\mingw64\share\aclocal;C:\Program Files\Git\usr\share\aclocal, java.home=C:\workspace\runtime\java\jdk1.8.0_333\jre, env.DISPLAY=needs-to-be-defined, env.JAVA_HOME_8=C:\workspace\runtime\java\jdk1.8.0_333, classworlds.conf=C:/workspace/runtime/java/apache-maven-3.8.6/bin/m2.conf, java.endorsed.dirs=C:\workspace\runtime\java\jdk1.8.0_333\jre\lib\endorsed, env.USERNAME=mttfranci, env.OUTLOOK=C:/Program Files/Microsoft Office/Office16, sun.os.patch.level=, java.vendor.url=http://java.oracle.com/, env.COMPUTERNAME=MTTFRANCI-P, env.ORIGINAL_PATH=C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\mttfranci\bin;%JAVA_HOME%\bin;C:\workspace\runtime\java\apache-maven-3.8.3\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\Enterprise Vault\EVClient;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\mttfranci\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\mttfranci\AppData\Local\Microsoft\WindowsApps;C:\Users\mttfranci\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\mttfranci\AppData\Roaming\npm;C:\Users\mttfranci\AppData\Roaming\nvm;C:\Program Files\nodejs, env.TERM_PROGRAM_VERSION=3.4.6, mvn-surefire-version=3.0.0-M7, java.version=1.8.0_333, env.DRIVERDATA=C:\Windows\System32\Drivers\DriverData, env.FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer, env.MSYSTEM_CARCH=x86_64, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, env.USERPROFILE=C:\Users\mttfranci, env.PLINK_PROTOCOL=ssh, user.name=mttfranci, sun.io.unicode.encoding=UnicodeLittle, env.JAVA_HOME_11=C:\workspace\runtime\java\jdk-11.0.16, sun.jnu.encoding=Cp1252, java.runtime.name=Java(TM) SE Runtime Environment, env.LOCALAPPDATA=C:\Users\mttfranci\AppData\Local, env.SSH_ASKPASS=C:/Program Files/Git/mingw64/libexec/git-core/git-gui--askpass, env.COMMONPROGRAMW6432=C:\Program Files\Common Files, mvn-javadoc-version=3.4.1, java.specification.name=Java Platform API Specification, common-compress-version=1.22, user.timezone=Europe/Berlin, user.script=, path.separator=;, env.MAVEN_CMD_LINE_ARGS= clean install -X -P fop28, env.PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 142 Stepping 12, GenuineIntel, file.encoding=Cp1252, mvn-source-version=3.2.1, env.HOME=C:\Users\mttfranci, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher clean install -X -P fop28, env.MANPATH=C:\Program Files\Git\mingw64\local\man;C:\Program Files\Git\mingw64\share\man;C:\Program Files\Git\usr\local\man;C:\Program Files\Git\usr\share\man;C:\Program Files\Git\usr\man;C:\Program Files\Git\share\man, env.NUMBER_OF_PROCESSORS=4, env.APPDATA=C:\Users\mttfranci\AppData\Roaming, env.WINDIR=C:\Windows, env.HOSTNAME=mttfranci-p, java.io.tmpdir=C:\Users\MTTFRA~1\AppData\Local\Temp\, user.language=it, line.separator=
+, dbcp2-version=2.9.0, slf4j-version=1.7.36, log4j-slf4j-impl-version=2.19.0, env.NPM=C:/Users/apaolacci/AppData/Roaming/npm, env.COMMONPROGRAMFILES=C:\Program Files\Common Files, java.vm.info=mixed mode, fop-version=2.8, mvn-gpg-version=3.0.1, sun.desktop=windows, java.vm.specification.name=Java Virtual Machine Specification, junit-version=4.13.2, env.PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, env.ONEDRIVE=E:\onedrive\OneDrive - Sogei, env.USERDOMAIN_ROAMINGPROFILE=MTTFRANCI-P, j2ee-version-compliance=6.0, env.LOGONSERVER=\\MTTFRANCI-P, env.PSMODULEPATH=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules, env.LC_CTYPE=it_IT.UTF-8, java.awt.printerjob=sun.awt.windows.WPrinterJob, env.GIT=C:/Program Files/Git, env.PUBLIC=C:\Users\Public, env.CHROME=C:/Program Files (x86)/Google/Chrome/Application, env.USERDOMAIN=MTTFRANCI-P, env.MONGO_SHELL=H:/mongodb/mongosh-0.12.0-win32/bin, env.ORIGINAL_TEMP=C:/Users/MTTFRA~1/AppData/Local/Temp, env.PROCESSOR_LEVEL=6, env.PROGRAMFILES(X86)=C:\Program Files (x86), env.MSYSTEM_PREFIX=C:/Program Files/Git/mingw64, env.MINGW_CHOST=x86_64-w64-mingw32, os.name=Windows 10, dbcp-version=1.4, java.specification.vendor=Oracle Corporation, org.tukaani.xz-version=1.9, env.TMP=C:\Users\MTTFRA~1\AppData\Local\Temp, env.TERM=xterm, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, env.OS=Windows_NT, java.library.path=C:\workspace\runtime\java\jdk1.8.0_333\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\workspace\runtime\java\apache-maven-3.8.6\bin;C:\Users\mttfranci\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\mttfranci\bin;%JAVA_HOME%\bin;C:\workspace\runtime\java\apache-maven-3.8.3\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\Enterprise Vault\EVClient;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\mttfranci\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\mttfranci\AppData\Local\Microsoft\WindowsApps;C:\Users\mttfranci\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\mttfranci\AppData\Roaming\npm;C:\Users\mttfranci\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;C:\workspace\runtime\java\jdk1.8.0_333\bin;C:\workspace\runtime\java\apache-maven-3.8.6\bin;C:\Program Files (x86)\Google\Chrome\Application;C:\Program Files\Microsoft Office\Office16;C:\Program Files\Git;C:\Users\apaolacci\AppData\Roaming\npm;H:\mongodb\mongosh-0.12.0-win32\bin;., env.PROGRAMW6432=C:\Program Files, env.PATH=C:\workspace\runtime\java\apache-maven-3.8.6\bin;C:\Users\mttfranci\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\mttfranci\bin;%JAVA_HOME%\bin;C:\workspace\runtime\java\apache-maven-3.8.3\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\Enterprise Vault\EVClient;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\mttfranci\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\mttfranci\AppData\Local\Microsoft\WindowsApps;C:\Users\mttfranci\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\mttfranci\AppData\Roaming\npm;C:\Users\mttfranci\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;C:\workspace\runtime\java\jdk1.8.0_333\bin;C:\workspace\runtime\java\apache-maven-3.8.6\bin;C:\Program Files (x86)\Google\Chrome\Application;C:\Program Files\Microsoft Office\Office16;C:\Program Files\Git;C:\Users\apaolacci\AppData\Roaming\npm;H:\mongodb\mongosh-0.12.0-win32\bin, library.jansi.path=C:/workspace/runtime/java/apache-maven-3.8.6/lib/jansi-native, env.INFOPATH=C:\Program Files\Git\usr\local\info;C:\Program Files\Git\usr\share\info;C:\Program Files\Git\usr\info;C:\Program Files\Git\share\info, java.class.version=52.0, env.SHLVL=1, maven.multiModuleProjectDirectory=C:/workspace/git/fop-custom-resource-resolver-poc, env.HOMEDRIVE=C:, env.SYSTEMROOT=C:\Windows, env.COMSPEC=C:\Windows\system32\cmd.exe, sun.boot.library.path=C:\workspace\runtime\java\jdk1.8.0_333\jre\bin, java-version-compliance=1.8, project.build.sourceEncoding=UTF-8, env.SYSTEMDRIVE=C:, env.PROCESSOR_REVISION=8e0c, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, user.variant=, env.MINGW_PACKAGE_PREFIX=mingw-w64-x86_64, mvn-jar-version=3.3.0, env.CONFIG_SITE=C:/Program Files/Git/mingw64/etc/config.site, env.TERM_PROGRAM=mintty, env.PROGRAMFILES=C:\Program Files, java.vm.specification.version=1.8, hsqldb-version=2.5.2, common-codec-version=1.15, env.PROGRAMDATA=C:\ProgramData, awt.toolkit=sun.awt.windows.WToolkit, env.MAVEN_HOME=C:/workspace/runtime/java/apache-maven-3.8.6, sun.cpu.isalist=amd64, env.MAVEN_PROJECTBASEDIR=C:/workspace/git/fop-custom-resource-resolver-poc, java.ext.dirs=C:\workspace\runtime\java\jdk1.8.0_333\jre\lib\ext;C:\Windows\Sun\Java\lib\ext, os.version=10.0, user.home=C:\Users\mttfranci, java.vm.vendor=Oracle Corporation, env.PKG_CONFIG_PATH=C:\Program Files\Git\mingw64\lib\pkgconfig;C:\Program Files\Git\mingw64\share\pkgconfig, env.JAVA_HOME=C:/workspace/runtime/java/jdk1.8.0_333, user.dir=C:\workspace\git\fop-custom-resource-resolver-poc, maven.conf=C:/workspace/runtime/java/apache-maven-3.8.6/conf, env.MINGW_PREFIX=C:/Program Files/Git/mingw64, env.COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files, env.PWD=C:/workspace/git/fop-custom-resource-resolver-poc, sun.cpu.endian=little, env.ALLUSERSPROFILE=C:\ProgramData, env.NVM_SYMLINK=C:\Program Files\nodejs, env.TMPDIR=C:\Users\MTTFRA~1\AppData\Local\Temp, poi-version=4.1.2, env.PROCESSOR_ARCHITECTURE=AMD64, java.vm.version=25.333-b02, java.class.path=C:/workspace/runtime/java/apache-maven-3.8.6/boot/plexus-classworlds-2.6.0.jar, env.=::=::\, env.HOMEPATH=\Users\mttfranci, env.NVM_HOME=C:\Users\mttfranci\AppData\Roaming\nvm, os.arch=amd64, maven.build.version=Apache Maven 3.8.6 (84538c9988a25aec085021c365c560670ad80f63), env.MSYSTEM_CHOST=x86_64-w64-mingw32, env.ONEDRIVECOMMERCIAL=E:\onedrive\OneDrive - Sogei, env.SESSIONNAME=Console, sun.java.launcher=SUN_STANDARD, mvn-shade-version=3.4.1, nexus-version=1.6.8, java.vm.specification.vendor=Oracle Corporation, file.separator=\, java.runtime.version=1.8.0_333-b02, sun.boot.class.path=C:\workspace\runtime\java\jdk1.8.0_333\jre\lib\resources.jar;C:\workspace\runtime\java\jdk1.8.0_333\jre\lib\rt.jar;C:\workspace\runtime\java\jdk1.8.0_333\jre\lib\sunrsasign.jar;C:\workspace\runtime\java\jdk1.8.0_333\jre\lib\jsse.jar;C:\workspace\runtime\java\jdk1.8.0_333\jre\lib\jce.jar;C:\workspace\runtime\java\jdk1.8.0_333\jre\lib\charsets.jar;C:\workspace\runtime\java\jdk1.8.0_333\jre\lib\jfr.jar;C:\workspace\runtime\java\jdk1.8.0_333\jre\classes, env.EXEPATH=C:\Program Files\Git, maven.version=3.8.6, env.TEMP=C:\Users\MTTFRA~1\AppData\Local\Temp, env.ORIGINAL_TMP=C:/Users/MTTFRA~1/AppData/Local/Temp, user.country=IT, env.FPS_BROWSER_USER_PROFILE_STRING=Default, maven.home=C:\workspace\runtime\java\apache-maven-3.8.6, env.SHELL=C:\Program Files\Git\usr\bin\bash.exe, maven.compiler.target=1.8, env.=E:=E:\, java.vendor=Oracle Corporation, maven.compiler.source=1.8, java.specification.version=1.8, sun.arch.data.model=64, env.MSYSTEM=MINGW64}
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[DEBUG] resource with targetPath null
+directory C:\workspace\git\fop-custom-resource-resolver-poc\src\test\resources
+excludes []
+includes []
+[DEBUG] ignoreDelta true
+[INFO] Copying 1 resource
+[DEBUG] file log4j2.xml has a filtered file extension
+[DEBUG] copy C:\workspace\git\fop-custom-resource-resolver-poc\src\test\resources\log4j2.xml to C:\workspace\git\fop-custom-resource-resolver-poc\target\test-classes\log4j2.xml
+[DEBUG] no use filter components
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ fop-custom-resource-resolver-poc ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:3.1:testCompile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1, parent: sun.misc.Launcher$AppClassLoader@4e25154f]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:3.1:testCompile' with basic configurator -->
+[DEBUG]   (f) basedir = C:\workspace\git\fop-custom-resource-resolver-poc
+[DEBUG]   (f) buildDirectory = C:\workspace\git\fop-custom-resource-resolver-poc\target
+[DEBUG]   (f) classpathElements = [C:\workspace\git\fop-custom-resource-resolver-poc\target\test-classes, C:\workspace\git\fop-custom-resource-resolver-poc\target\classes, C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\fop\2.8\fop-2.8.jar, C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\fop-util\2.8\fop-util-2.8.jar, C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\xmlgraphics-commons\2.8\xmlgraphics-commons-2.8.jar, C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\fop-events\2.8\fop-events-2.8.jar, C:\workspace\runtime\java\maven_local_repo\com\thoughtworks\qdox\qdox\1.12\qdox-1.12.jar, C:\workspace\runtime\java\maven_local_repo\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar, C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\fop-core\2.8\fop-core-2.8.jar, C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-anim\1.16\batik-anim-1.16.jar, C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-css\1.16\batik-css-1.16.jar, C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-dom\1.16\batik-dom-1.16.jar, C:\workspace\runtime\java\maven_local_repo\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar, C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-ext\1.16\batik-ext-1.16.jar, C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-parser\1.16\batik-parser-1.16.jar, C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-shared-resources\1.16\batik-shared-resources-1.16.jar, C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-svg-dom\1.16\batik-svg-dom-1.16.jar, C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-util\1.16\batik-util-1.16.jar, C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-constants\1.16\batik-constants-1.16.jar, C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-i18n\1.16\batik-i18n-1.16.jar, C:\workspace\runtime\java\maven_local_repo\xml-apis\xml-apis-ext\1.3.04\xml-apis-ext-1.3.04.jar, C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-awt-util\1.16\batik-awt-util-1.16.jar, C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-bridge\1.16\batik-bridge-1.16.jar, C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-script\1.16\batik-script-1.16.jar, C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-xml\1.16\batik-xml-1.16.jar, C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-extension\1.16\batik-extension-1.16.jar, C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-gvt\1.16\batik-gvt-1.16.jar, C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-transcoder\1.16\batik-transcoder-1.16.jar, C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-svggen\1.16\batik-svggen-1.16.jar, C:\workspace\runtime\java\maven_local_repo\commons-logging\commons-logging\1.0.4\commons-logging-1.0.4.jar, C:\workspace\runtime\java\maven_local_repo\org\apache\pdfbox\fontbox\2.0.24\fontbox-2.0.24.jar, C:\workspace\runtime\java\maven_local_repo\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar, C:\workspace\runtime\java\maven_local_repo\org\slf4j\jcl-over-slf4j\1.7.36\jcl-over-slf4j-1.7.36.jar, C:\workspace\runtime\java\maven_local_repo\org\apache\logging\log4j\log4j-slf4j-impl\2.19.0\log4j-slf4j-impl-2.19.0.jar, C:\workspace\runtime\java\maven_local_repo\org\apache\logging\log4j\log4j-api\2.19.0\log4j-api-2.19.0.jar, C:\workspace\runtime\java\maven_local_repo\org\apache\logging\log4j\log4j-core\2.19.0\log4j-core-2.19.0.jar, C:\workspace\runtime\java\maven_local_repo\junit\junit\4.13.2\junit-4.13.2.jar, C:\workspace\runtime\java\maven_local_repo\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar]
+[DEBUG]   (f) compileSourceRoots = [C:\workspace\git\fop-custom-resource-resolver-poc\src\test\java]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) forceJavacCompilerUse = false
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) generatedTestSourcesDirectory = C:\workspace\git\fop-custom-resource-resolver-poc\target\generated-test-sources\test-annotations
+[DEBUG]   (f) mojoExecution = org.apache.maven.plugins:maven-compiler-plugin:3.1:testCompile {execution: default-testCompile}
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = C:\workspace\git\fop-custom-resource-resolver-poc\target\test-classes
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = false
+[DEBUG]   (f) skipMultiThreadWarning = false
+[DEBUG]   (f) source = 1.8
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (f) target = 1.8
+[DEBUG]   (f) useIncrementalCompilation = true
+[DEBUG]   (f) verbose = false
+[DEBUG]   (f) mavenSession = org.apache.maven.execution.MavenSession@28fa700e
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@28fa700e
+[DEBUG] -- end configuration --
+[DEBUG] Using compiler 'javac'.
+[DEBUG] Source directories: [C:\workspace\git\fop-custom-resource-resolver-poc\src\test\java]
+[DEBUG] Classpath: [C:\workspace\git\fop-custom-resource-resolver-poc\target\test-classes
+ C:\workspace\git\fop-custom-resource-resolver-poc\target\classes
+ C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\fop\2.8\fop-2.8.jar
+ C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\fop-util\2.8\fop-util-2.8.jar
+ C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\xmlgraphics-commons\2.8\xmlgraphics-commons-2.8.jar
+ C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\fop-events\2.8\fop-events-2.8.jar
+ C:\workspace\runtime\java\maven_local_repo\com\thoughtworks\qdox\qdox\1.12\qdox-1.12.jar
+ C:\workspace\runtime\java\maven_local_repo\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar
+ C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\fop-core\2.8\fop-core-2.8.jar
+ C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-anim\1.16\batik-anim-1.16.jar
+ C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-css\1.16\batik-css-1.16.jar
+ C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-dom\1.16\batik-dom-1.16.jar
+ C:\workspace\runtime\java\maven_local_repo\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar
+ C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-ext\1.16\batik-ext-1.16.jar
+ C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-parser\1.16\batik-parser-1.16.jar
+ C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-shared-resources\1.16\batik-shared-resources-1.16.jar
+ C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-svg-dom\1.16\batik-svg-dom-1.16.jar
+ C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-util\1.16\batik-util-1.16.jar
+ C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-constants\1.16\batik-constants-1.16.jar
+ C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-i18n\1.16\batik-i18n-1.16.jar
+ C:\workspace\runtime\java\maven_local_repo\xml-apis\xml-apis-ext\1.3.04\xml-apis-ext-1.3.04.jar
+ C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-awt-util\1.16\batik-awt-util-1.16.jar
+ C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-bridge\1.16\batik-bridge-1.16.jar
+ C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-script\1.16\batik-script-1.16.jar
+ C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-xml\1.16\batik-xml-1.16.jar
+ C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-extension\1.16\batik-extension-1.16.jar
+ C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-gvt\1.16\batik-gvt-1.16.jar
+ C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-transcoder\1.16\batik-transcoder-1.16.jar
+ C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-svggen\1.16\batik-svggen-1.16.jar
+ C:\workspace\runtime\java\maven_local_repo\commons-logging\commons-logging\1.0.4\commons-logging-1.0.4.jar
+ C:\workspace\runtime\java\maven_local_repo\org\apache\pdfbox\fontbox\2.0.24\fontbox-2.0.24.jar
+ C:\workspace\runtime\java\maven_local_repo\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar
+ C:\workspace\runtime\java\maven_local_repo\org\slf4j\jcl-over-slf4j\1.7.36\jcl-over-slf4j-1.7.36.jar
+ C:\workspace\runtime\java\maven_local_repo\org\apache\logging\log4j\log4j-slf4j-impl\2.19.0\log4j-slf4j-impl-2.19.0.jar
+ C:\workspace\runtime\java\maven_local_repo\org\apache\logging\log4j\log4j-api\2.19.0\log4j-api-2.19.0.jar
+ C:\workspace\runtime\java\maven_local_repo\org\apache\logging\log4j\log4j-core\2.19.0\log4j-core-2.19.0.jar
+ C:\workspace\runtime\java\maven_local_repo\junit\junit\4.13.2\junit-4.13.2.jar
+ C:\workspace\runtime\java\maven_local_repo\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar]
+[DEBUG] Output directory: C:\workspace\git\fop-custom-resource-resolver-poc\target\test-classes
+[DEBUG] CompilerReuseStrategy: reuseCreated
+[DEBUG] useIncrementalCompilation enabled
+[DEBUG] Stale source detected: C:\workspace\git\fop-custom-resource-resolver-poc\src\test\java\test\TestDocGeneration.java
+[INFO] Changes detected - recompiling the module!
+[DEBUG] Classpath:
+[DEBUG]  C:\workspace\git\fop-custom-resource-resolver-poc\target\test-classes
+[DEBUG]  C:\workspace\git\fop-custom-resource-resolver-poc\target\classes
+[DEBUG]  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\fop\2.8\fop-2.8.jar
+[DEBUG]  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\fop-util\2.8\fop-util-2.8.jar
+[DEBUG]  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\xmlgraphics-commons\2.8\xmlgraphics-commons-2.8.jar
+[DEBUG]  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\fop-events\2.8\fop-events-2.8.jar
+[DEBUG]  C:\workspace\runtime\java\maven_local_repo\com\thoughtworks\qdox\qdox\1.12\qdox-1.12.jar
+[DEBUG]  C:\workspace\runtime\java\maven_local_repo\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar
+[DEBUG]  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\fop-core\2.8\fop-core-2.8.jar
+[DEBUG]  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-anim\1.16\batik-anim-1.16.jar
+[DEBUG]  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-css\1.16\batik-css-1.16.jar
+[DEBUG]  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-dom\1.16\batik-dom-1.16.jar
+[DEBUG]  C:\workspace\runtime\java\maven_local_repo\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar
+[DEBUG]  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-ext\1.16\batik-ext-1.16.jar
+[DEBUG]  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-parser\1.16\batik-parser-1.16.jar
+[DEBUG]  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-shared-resources\1.16\batik-shared-resources-1.16.jar
+[DEBUG]  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-svg-dom\1.16\batik-svg-dom-1.16.jar
+[DEBUG]  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-util\1.16\batik-util-1.16.jar
+[DEBUG]  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-constants\1.16\batik-constants-1.16.jar
+[DEBUG]  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-i18n\1.16\batik-i18n-1.16.jar
+[DEBUG]  C:\workspace\runtime\java\maven_local_repo\xml-apis\xml-apis-ext\1.3.04\xml-apis-ext-1.3.04.jar
+[DEBUG]  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-awt-util\1.16\batik-awt-util-1.16.jar
+[DEBUG]  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-bridge\1.16\batik-bridge-1.16.jar
+[DEBUG]  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-script\1.16\batik-script-1.16.jar
+[DEBUG]  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-xml\1.16\batik-xml-1.16.jar
+[DEBUG]  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-extension\1.16\batik-extension-1.16.jar
+[DEBUG]  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-gvt\1.16\batik-gvt-1.16.jar
+[DEBUG]  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-transcoder\1.16\batik-transcoder-1.16.jar
+[DEBUG]  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-svggen\1.16\batik-svggen-1.16.jar
+[DEBUG]  C:\workspace\runtime\java\maven_local_repo\commons-logging\commons-logging\1.0.4\commons-logging-1.0.4.jar
+[DEBUG]  C:\workspace\runtime\java\maven_local_repo\org\apache\pdfbox\fontbox\2.0.24\fontbox-2.0.24.jar
+[DEBUG]  C:\workspace\runtime\java\maven_local_repo\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar
+[DEBUG]  C:\workspace\runtime\java\maven_local_repo\org\slf4j\jcl-over-slf4j\1.7.36\jcl-over-slf4j-1.7.36.jar
+[DEBUG]  C:\workspace\runtime\java\maven_local_repo\org\apache\logging\log4j\log4j-slf4j-impl\2.19.0\log4j-slf4j-impl-2.19.0.jar
+[DEBUG]  C:\workspace\runtime\java\maven_local_repo\org\apache\logging\log4j\log4j-api\2.19.0\log4j-api-2.19.0.jar
+[DEBUG]  C:\workspace\runtime\java\maven_local_repo\org\apache\logging\log4j\log4j-core\2.19.0\log4j-core-2.19.0.jar
+[DEBUG]  C:\workspace\runtime\java\maven_local_repo\junit\junit\4.13.2\junit-4.13.2.jar
+[DEBUG]  C:\workspace\runtime\java\maven_local_repo\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar
+[DEBUG] Source roots:
+[DEBUG]  C:\workspace\git\fop-custom-resource-resolver-poc\src\test\java
+[DEBUG] Command line options:
+[DEBUG] -d C:\workspace\git\fop-custom-resource-resolver-poc\target\test-classes -classpath C:\workspace\git\fop-custom-resource-resolver-poc\target\test-classes;C:\workspace\git\fop-custom-resource-resolver-poc\target\classes;C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\fop\2.8\fop-2.8.jar;C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\fop-util\2.8\fop-util-2.8.jar;C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\xmlgraphics-commons\2.8\xmlgraphics-commons-2.8.jar;C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\fop-events\2.8\fop-events-2.8.jar;C:\workspace\runtime\java\maven_local_repo\com\thoughtworks\qdox\qdox\1.12\qdox-1.12.jar;C:\workspace\runtime\java\maven_local_repo\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\fop-core\2.8\fop-core-2.8.jar;C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-anim\1.16\batik-anim-1.16.jar;C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-css\1.16\batik-css-1.16.jar;C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-dom\1.16\batik-dom-1.16.jar;C:\workspace\runtime\java\maven_local_repo\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-ext\1.16\batik-ext-1.16.jar;C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-parser\1.16\batik-parser-1.16.jar;C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-shared-resources\1.16\batik-shared-resources-1.16.jar;C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-svg-dom\1.16\batik-svg-dom-1.16.jar;C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-util\1.16\batik-util-1.16.jar;C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-constants\1.16\batik-constants-1.16.jar;C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-i18n\1.16\batik-i18n-1.16.jar;C:\workspace\runtime\java\maven_local_repo\xml-apis\xml-apis-ext\1.3.04\xml-apis-ext-1.3.04.jar;C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-awt-util\1.16\batik-awt-util-1.16.jar;C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-bridge\1.16\batik-bridge-1.16.jar;C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-script\1.16\batik-script-1.16.jar;C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-xml\1.16\batik-xml-1.16.jar;C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-extension\1.16\batik-extension-1.16.jar;C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-gvt\1.16\batik-gvt-1.16.jar;C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-transcoder\1.16\batik-transcoder-1.16.jar;C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-svggen\1.16\batik-svggen-1.16.jar;C:\workspace\runtime\java\maven_local_repo\commons-logging\commons-logging\1.0.4\commons-logging-1.0.4.jar;C:\workspace\runtime\java\maven_local_repo\org\apache\pdfbox\fontbox\2.0.24\fontbox-2.0.24.jar;C:\workspace\runtime\java\maven_local_repo\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\workspace\runtime\java\maven_local_repo\org\slf4j\jcl-over-slf4j\1.7.36\jcl-over-slf4j-1.7.36.jar;C:\workspace\runtime\java\maven_local_repo\org\apache\logging\log4j\log4j-slf4j-impl\2.19.0\log4j-slf4j-impl-2.19.0.jar;C:\workspace\runtime\java\maven_local_repo\org\apache\logging\log4j\log4j-api\2.19.0\log4j-api-2.19.0.jar;C:\workspace\runtime\java\maven_local_repo\org\apache\logging\log4j\log4j-core\2.19.0\log4j-core-2.19.0.jar;C:\workspace\runtime\java\maven_local_repo\junit\junit\4.13.2\junit-4.13.2.jar;C:\workspace\runtime\java\maven_local_repo\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar; -sourcepath C:\workspace\git\fop-custom-resource-resolver-poc\src\test\java; -s C:\workspace\git\fop-custom-resource-resolver-poc\target\generated-test-sources\test-annotations -g -nowarn -target 1.8 -source 1.8 -encoding UTF-8
+[DEBUG] incrementalBuildHelper#beforeRebuildExecution
+[INFO] Compiling 1 source file to C:\workspace\git\fop-custom-resource-resolver-poc\target\test-classes
+[DEBUG] incrementalBuildHelper#afterRebuildExecution
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M7:test (default-test) @ fop-custom-resource-resolver-poc ---
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for jboss-public-repository-group (http://repository.jboss.org/nexus/content/groups/public).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for ow2-snapshot (http://repository.ow2.org/nexus/content/repositories/snapshots).
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=157000, ConflictMarker.markTime=75200, ConflictMarker.nodeCount=76, ConflictIdSorter.graphTime=58100, ConflictIdSorter.topsortTime=46700, ConflictIdSorter.conflictIdCount=39, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1599400, ConflictResolver.conflictItemCount=75, DefaultDependencyCollector.collectTime=240123100, DefaultDependencyCollector.transformTime=1973000}
+[DEBUG] org.apache.maven.plugins:maven-surefire-plugin:jar:3.0.0-M7
+[DEBUG]    org.apache.maven.surefire:maven-surefire-common:jar:3.0.0-M7:compile
+[DEBUG]       org.apache.maven.surefire:surefire-api:jar:3.0.0-M7:compile
+[DEBUG]          org.apache.maven.surefire:surefire-logger-api:jar:3.0.0-M7:compile
+[DEBUG]       org.apache.maven.surefire:surefire-extensions-api:jar:3.0.0-M7:compile
+[DEBUG]       org.apache.maven.surefire:surefire-booter:jar:3.0.0-M7:compile
+[DEBUG]          org.apache.maven.surefire:surefire-extensions-spi:jar:3.0.0-M7:compile
+[DEBUG]       org.apache.maven.shared:maven-common-artifact-filters:jar:3.1.1:compile (version managed from default) (exclusions managed from default)
+[DEBUG]          org.apache.maven:maven-artifact:jar:3.2.5:provided (scope managed from default) (version managed from default)
+[DEBUG]             org.codehaus.plexus:plexus-utils:jar:3.3.0:provided (version managed from default)
+[DEBUG]          org.apache.maven:maven-core:jar:3.2.5:provided (scope managed from default) (version managed from default)
+[DEBUG]             org.apache.maven:maven-settings:jar:3.2.5:provided (version managed from default)
+[DEBUG]             org.apache.maven:maven-settings-builder:jar:3.2.5:provided
+[DEBUG]             org.apache.maven:maven-repository-metadata:jar:3.2.5:provided
+[DEBUG]             org.apache.maven:maven-model-builder:jar:3.2.5:provided
+[DEBUG]             org.apache.maven:maven-aether-provider:jar:3.2.5:provided
+[DEBUG]                org.eclipse.aether:aether-spi:jar:1.0.0.v20140518:provided
+[DEBUG]             org.eclipse.aether:aether-impl:jar:1.0.0.v20140518:provided
+[DEBUG]             org.eclipse.aether:aether-api:jar:1.0.0.v20140518:provided
+[DEBUG]             org.eclipse.aether:aether-util:jar:1.0.0.v20140518:provided
+[DEBUG]             org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.3.5:provided (version managed from default)
+[DEBUG]                javax.annotation:javax.annotation-api:jar:1.2:provided
+[DEBUG]                javax.enterprise:cdi-api:jar:1.2:provided
+[DEBUG]                org.eclipse.sisu:org.eclipse.sisu.inject:jar:0.3.5:provided (version managed from default)
+[DEBUG]             org.sonatype.sisu:sisu-guice:jar:no_aop:3.2.3:provided
+[DEBUG]                javax.inject:javax.inject:jar:1:provided
+[DEBUG]                aopalliance:aopalliance:jar:1.0:provided
+[DEBUG]                com.google.guava:guava:jar:16.0.1:provided
+[DEBUG]             org.codehaus.plexus:plexus-interpolation:jar:1.21:provided
+[DEBUG]             org.codehaus.plexus:plexus-classworlds:jar:2.5.2:provided
+[DEBUG]             org.codehaus.plexus:plexus-component-annotations:jar:2.1.1:provided (version managed from default)
+[DEBUG]             org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:provided
+[DEBUG]                org.sonatype.plexus:plexus-cipher:jar:1.4:provided
+[DEBUG]          org.apache.maven:maven-plugin-api:jar:3.2.5:provided (scope managed from default) (version managed from default)
+[DEBUG]          commons-io:commons-io:jar:2.11.0:compile (version managed from default)
+[DEBUG]       org.codehaus.plexus:plexus-java:jar:1.1.1:compile (version managed from default)
+[DEBUG]          org.ow2.asm:asm:jar:9.2:compile
+[DEBUG]          com.thoughtworks.qdox:qdox:jar:2.0.1:compile
+[DEBUG]       org.apache.maven.surefire:surefire-shared-utils:jar:3.0.0-M7:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-surefire-plugin:3.0.0-M7
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-surefire-plugin:3.0.0-M7
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-surefire-plugin:3.0.0-M7
+[DEBUG]   Included: org.apache.maven.plugins:maven-surefire-plugin:jar:3.0.0-M7
+[DEBUG]   Included: org.apache.maven.surefire:maven-surefire-common:jar:3.0.0-M7
+[DEBUG]   Included: org.apache.maven.surefire:surefire-api:jar:3.0.0-M7
+[DEBUG]   Included: org.apache.maven.surefire:surefire-logger-api:jar:3.0.0-M7
+[DEBUG]   Included: org.apache.maven.surefire:surefire-extensions-api:jar:3.0.0-M7
+[DEBUG]   Included: org.apache.maven.surefire:surefire-booter:jar:3.0.0-M7
+[DEBUG]   Included: org.apache.maven.surefire:surefire-extensions-spi:jar:3.0.0-M7
+[DEBUG]   Included: org.apache.maven.shared:maven-common-artifact-filters:jar:3.1.1
+[DEBUG]   Included: commons-io:commons-io:jar:2.11.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-java:jar:1.1.1
+[DEBUG]   Included: org.ow2.asm:asm:jar:9.2
+[DEBUG]   Included: com.thoughtworks.qdox:qdox:jar:2.0.1
+[DEBUG]   Included: org.apache.maven.surefire:surefire-shared-utils:jar:3.0.0-M7
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-surefire-plugin:3.0.0-M7:test from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-surefire-plugin:3.0.0-M7, parent: sun.misc.Launcher$AppClassLoader@4e25154f]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-surefire-plugin:3.0.0-M7:test' with basic configurator -->
+[DEBUG]   (s) additionalClasspathElements = []
+[DEBUG]   (s) basedir = C:\workspace\git\fop-custom-resource-resolver-poc
+[DEBUG]   (s) childDelegation = false
+[DEBUG]   (f) classesDirectory = C:\workspace\git\fop-custom-resource-resolver-poc\target\classes
+[DEBUG]   (s) classpathDependencyExcludes = []
+[DEBUG]   (s) dependenciesToScan = []
+[DEBUG]   (s) disableXmlReport = false
+[DEBUG]   (s) enableAssertions = true
+[DEBUG]   (s) excludeJUnit5Engines = []
+[DEBUG]   (f) excludedEnvironmentVariables = []
+[DEBUG]   (s) excludes = []
+[DEBUG]   (s) failIfNoSpecifiedTests = true
+[DEBUG]   (s) failIfNoTests = false
+[DEBUG]   (s) failOnFlakeCount = 0
+[DEBUG]   (f) forkCount = 1
+[DEBUG]   (s) forkMode = once
+[DEBUG]   (s) forkedProcessExitTimeoutInSeconds = 30
+[DEBUG]   (s) includeJUnit5Engines = []
+[DEBUG]   (s) includes = []
+[DEBUG]   (s) junitArtifactName = junit:junit
+[DEBUG]   (s) localRepository =       id: local
+      url: file:///C:/workspace/runtime/java/maven_local_repo/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+   blocked: false
+
+[DEBUG]   (f) parallelMavenExecution = false
+[DEBUG]   (s) parallelOptimized = true
+[DEBUG]   (s) perCoreThreadCount = true
+[DEBUG]   (s) pluginArtifactMap = {org.apache.maven.plugins:maven-surefire-plugin=org.apache.maven.plugins:maven-surefire-plugin:maven-plugin:3.0.0-M7:, org.apache.maven.surefire:maven-surefire-common=org.apache.maven.surefire:maven-surefire-common:jar:3.0.0-M7:compile, org.apache.maven.surefire:surefire-api=org.apache.maven.surefire:surefire-api:jar:3.0.0-M7:compile, org.apache.maven.surefire:surefire-logger-api=org.apache.maven.surefire:surefire-logger-api:jar:3.0.0-M7:compile, org.apache.maven.surefire:surefire-extensions-api=org.apache.maven.surefire:surefire-extensions-api:jar:3.0.0-M7:compile, org.apache.maven.surefire:surefire-booter=org.apache.maven.surefire:surefire-booter:jar:3.0.0-M7:compile, org.apache.maven.surefire:surefire-extensions-spi=org.apache.maven.surefire:surefire-extensions-spi:jar:3.0.0-M7:compile, org.apache.maven.shared:maven-common-artifact-filters=org.apache.maven.shared:maven-common-artifact-filters:jar:3.1.1:compile, commons-io:commons-io=commons-io:commons-io:jar:2.11.0:compile, org.codehaus.plexus:plexus-java=org.codehaus.plexus:plexus-java:jar:1.1.1:compile, org.ow2.asm:asm=org.ow2.asm:asm:jar:9.2:compile, com.thoughtworks.qdox:qdox=com.thoughtworks.qdox:qdox:jar:2.0.1:compile, org.apache.maven.surefire:surefire-shared-utils=org.apache.maven.surefire:surefire-shared-utils:jar:3.0.0-M7:compile}
+[DEBUG]   (f) pluginDescriptor = Component Descriptor: role: 'org.apache.maven.plugin.Mojo', implementation: 'org.apache.maven.plugin.surefire.HelpMojo', role hint: 'org.apache.maven.plugins:maven-surefire-plugin:3.0.0-M7:help'
+role: 'org.apache.maven.plugin.Mojo', implementation: 'org.apache.maven.plugin.surefire.SurefirePlugin', role hint: 'org.apache.maven.plugins:maven-surefire-plugin:3.0.0-M7:test'
+---
+[DEBUG]   (s) printSummary = true
+[DEBUG]   (s) project = MavenProject: org.fugerit.java.poc:fop-custom-resource-resolver-poc:1.0-SNAPSHOT @ C:\workspace\git\fop-custom-resource-resolver-poc\pom.xml
+[DEBUG]   (s) projectArtifactMap = {org.apache.xmlgraphics:fop=org.apache.xmlgraphics:fop:jar:2.8:compile, org.apache.xmlgraphics:fop-util=org.apache.xmlgraphics:fop-util:jar:2.8:compile, org.apache.xmlgraphics:xmlgraphics-commons=org.apache.xmlgraphics:xmlgraphics-commons:jar:2.8:compile, org.apache.xmlgraphics:fop-events=org.apache.xmlgraphics:fop-events:jar:2.8:compile, com.thoughtworks.qdox:qdox=com.thoughtworks.qdox:qdox:jar:1.12:compile, commons-io:commons-io=commons-io:commons-io:jar:2.11.0:compile, org.apache.xmlgraphics:fop-core=org.apache.xmlgraphics:fop-core:jar:2.8:compile, org.apache.xmlgraphics:batik-anim=org.apache.xmlgraphics:batik-anim:jar:1.16:compile, org.apache.xmlgraphics:batik-css=org.apache.xmlgraphics:batik-css:jar:1.16:compile, org.apache.xmlgraphics:batik-dom=org.apache.xmlgraphics:batik-dom:jar:1.16:compile, xml-apis:xml-apis=xml-apis:xml-apis:jar:1.4.01:compile, org.apache.xmlgraphics:batik-ext=org.apache.xmlgraphics:batik-ext:jar:1.16:compile, org.apache.xmlgraphics:batik-parser=org.apache.xmlgraphics:batik-parser:jar:1.16:compile, org.apache.xmlgraphics:batik-shared-resources=org.apache.xmlgraphics:batik-shared-resources:jar:1.16:compile, org.apache.xmlgraphics:batik-svg-dom=org.apache.xmlgraphics:batik-svg-dom:jar:1.16:compile, org.apache.xmlgraphics:batik-util=org.apache.xmlgraphics:batik-util:jar:1.16:compile, org.apache.xmlgraphics:batik-constants=org.apache.xmlgraphics:batik-constants:jar:1.16:compile, org.apache.xmlgraphics:batik-i18n=org.apache.xmlgraphics:batik-i18n:jar:1.16:compile, xml-apis:xml-apis-ext=xml-apis:xml-apis-ext:jar:1.3.04:compile, org.apache.xmlgraphics:batik-awt-util=org.apache.xmlgraphics:batik-awt-util:jar:1.16:compile, org.apache.xmlgraphics:batik-bridge=org.apache.xmlgraphics:batik-bridge:jar:1.16:compile, org.apache.xmlgraphics:batik-script=org.apache.xmlgraphics:batik-script:jar:1.16:compile, org.apache.xmlgraphics:batik-xml=org.apache.xmlgraphics:batik-xml:jar:1.16:compile, org.apache.xmlgraphics:batik-extension=org.apache.xmlgraphics:batik-extension:jar:1.16:compile, org.apache.xmlgraphics:batik-gvt=org.apache.xmlgraphics:batik-gvt:jar:1.16:compile, org.apache.xmlgraphics:batik-transcoder=org.apache.xmlgraphics:batik-transcoder:jar:1.16:compile, org.apache.xmlgraphics:batik-svggen=org.apache.xmlgraphics:batik-svggen:jar:1.16:compile, commons-logging:commons-logging=commons-logging:commons-logging:jar:1.0.4:compile, org.apache.pdfbox:fontbox=org.apache.pdfbox:fontbox:jar:2.0.24:compile, org.slf4j:slf4j-api=org.slf4j:slf4j-api:jar:1.7.36:compile, org.slf4j:jcl-over-slf4j=org.slf4j:jcl-over-slf4j:jar:1.7.36:test, org.apache.logging.log4j:log4j-slf4j-impl=org.apache.logging.log4j:log4j-slf4j-impl:jar:2.19.0:test, org.apache.logging.log4j:log4j-api=org.apache.logging.log4j:log4j-api:jar:2.19.0:test, org.apache.logging.log4j:log4j-core=org.apache.logging.log4j:log4j-core:jar:2.19.0:test, junit:junit=junit:junit:jar:4.13.2:test, org.hamcrest:hamcrest-core=org.hamcrest:hamcrest-core:jar:1.3:test}
+[DEBUG]   (s) projectBuildDirectory = C:\workspace\git\fop-custom-resource-resolver-poc\target
+[DEBUG]   (s) projectRemoteRepositories = [      id: central
+      url: https://repo.maven.apache.org/maven2
+   layout: default
+snapshots: [enabled => false, update => daily]
+ releases: [enabled => true, update => daily]
+   blocked: false
+]
+[DEBUG]   (s) redirectTestOutputToFile = false
+[DEBUG]   (s) remoteRepositories = [      id: central
+      url: https://repo.maven.apache.org/maven2
+   layout: default
+snapshots: [enabled => false, update => daily]
+ releases: [enabled => true, update => never]
+   blocked: false
+]
+[DEBUG]   (s) reportFormat = brief
+[DEBUG]   (s) reportsDirectory = C:\workspace\git\fop-custom-resource-resolver-poc\target\surefire-reports
+[DEBUG]   (f) rerunFailingTestsCount = 0
+[DEBUG]   (f) reuseForks = true
+[DEBUG]   (s) runOrder = filesystem
+[DEBUG]   (s) session = org.apache.maven.execution.MavenSession@28fa700e
+[DEBUG]   (f) shutdown = exit
+[DEBUG]   (s) skip = false
+[DEBUG]   (f) skipAfterFailureCount = 0
+[DEBUG]   (s) skipTests = false
+[DEBUG]   (s) suiteXmlFiles = []
+[DEBUG]   (s) tempDir = surefire
+[DEBUG]   (s) testClassesDirectory = C:\workspace\git\fop-custom-resource-resolver-poc\target\test-classes
+[DEBUG]   (s) testFailureIgnore = false
+[DEBUG]   (s) testNGArtifactName = org.testng:testng
+[DEBUG]   (s) testSourceDirectory = C:\workspace\git\fop-custom-resource-resolver-poc\src\test\java
+[DEBUG]   (s) threadCountClasses = 0
+[DEBUG]   (s) threadCountMethods = 0
+[DEBUG]   (s) threadCountSuites = 0
+[DEBUG]   (s) trimStackTrace = false
+[DEBUG]   (s) useFile = true
+[DEBUG]   (s) useManifestOnlyJar = true
+[DEBUG]   (f) useModulePath = true
+[DEBUG]   (s) useSystemClassLoader = true
+[DEBUG]   (s) useUnlimitedThreads = false
+[DEBUG]   (s) workingDirectory = C:\workspace\git\fop-custom-resource-resolver-poc
+[DEBUG] -- end configuration --
+[DEBUG] Using JVM: C:\workspace\runtime\java\jdk1.8.0_333\jre\bin\java with Java version 1.8
+[DEBUG] Resolved included and excluded patterns: **/Test*.java, **/*Test.java, **/*Tests.java, **/*TestCase.java, !**/*$*
+[DEBUG] Surefire report directory: C:\workspace\git\fop-custom-resource-resolver-poc\target\surefire-reports
+[INFO] Using auto detected provider org.apache.maven.surefire.junit4.JUnit4Provider
+[DEBUG] Using the provider org.apache.maven.surefire.junit4.JUnit4Provider
+[DEBUG] Setting system property [localRepository]=[C:\workspace\runtime\java\maven_local_repo]
+[DEBUG] Setting system property [basedir]=[C:\workspace\git\fop-custom-resource-resolver-poc]
+[DEBUG] Canonicalized tempDir path 'C:\Users\MTTFRA~1\AppData\Local\Temp\surefire8321312271049557759' to 'C:\Users\mttfranci\AppData\Local\Temp\surefire8321312271049557759'
+[DEBUG] Adding to surefire booter test classpath: C:\workspace\runtime\java\maven_local_repo\org\apache\maven\surefire\surefire-booter\3.0.0-M7\surefire-booter-3.0.0-M7.jar Scope: compile
+[DEBUG] Adding to surefire booter test classpath: C:\workspace\runtime\java\maven_local_repo\org\apache\maven\surefire\surefire-api\3.0.0-M7\surefire-api-3.0.0-M7.jar Scope: compile
+[DEBUG] Adding to surefire booter test classpath: C:\workspace\runtime\java\maven_local_repo\org\apache\maven\surefire\surefire-logger-api\3.0.0-M7\surefire-logger-api-3.0.0-M7.jar Scope: compile
+[DEBUG] Adding to surefire booter test classpath: C:\workspace\runtime\java\maven_local_repo\org\apache\maven\surefire\surefire-shared-utils\3.0.0-M7\surefire-shared-utils-3.0.0-M7.jar Scope: compile
+[DEBUG] Adding to surefire booter test classpath: C:\workspace\runtime\java\maven_local_repo\org\apache\maven\surefire\surefire-extensions-spi\3.0.0-M7\surefire-extensions-spi-3.0.0-M7.jar Scope: compile
+[DEBUG] Found implementation of fork node factory: org.apache.maven.plugin.surefire.extensions.LegacyForkNodeFactory
+[DEBUG] Adding to surefire test classpath: C:\workspace\runtime\java\maven_local_repo\org\apache\maven\surefire\surefire-junit4\3.0.0-M7\surefire-junit4-3.0.0-M7.jar Scope: null
+[DEBUG] Adding to surefire test classpath: C:\workspace\runtime\java\maven_local_repo\org\apache\maven\surefire\common-junit4\3.0.0-M7\common-junit4-3.0.0-M7.jar Scope: compile
+[DEBUG] Adding to surefire test classpath: C:\workspace\runtime\java\maven_local_repo\org\apache\maven\surefire\common-junit3\3.0.0-M7\common-junit3-3.0.0-M7.jar Scope: compile
+[DEBUG] Adding to surefire test classpath: C:\workspace\runtime\java\maven_local_repo\org\apache\maven\surefire\surefire-api\3.0.0-M7\surefire-api-3.0.0-M7.jar Scope: compile
+[DEBUG] Adding to surefire test classpath: C:\workspace\runtime\java\maven_local_repo\org\apache\maven\surefire\surefire-logger-api\3.0.0-M7\surefire-logger-api-3.0.0-M7.jar Scope: compile
+[DEBUG] Adding to surefire test classpath: C:\workspace\runtime\java\maven_local_repo\org\apache\maven\surefire\surefire-shared-utils\3.0.0-M7\surefire-shared-utils-3.0.0-M7.jar Scope: compile
+[DEBUG] Adding to surefire test classpath: C:\workspace\runtime\java\maven_local_repo\org\apache\maven\surefire\common-java5\3.0.0-M7\common-java5-3.0.0-M7.jar Scope: compile
+[DEBUG] test classpath:  C:\workspace\git\fop-custom-resource-resolver-poc\target\test-classes  C:\workspace\git\fop-custom-resource-resolver-poc\target\classes  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\fop\2.8\fop-2.8.jar  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\fop-util\2.8\fop-util-2.8.jar  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\xmlgraphics-commons\2.8\xmlgraphics-commons-2.8.jar  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\fop-events\2.8\fop-events-2.8.jar  C:\workspace\runtime\java\maven_local_repo\com\thoughtworks\qdox\qdox\1.12\qdox-1.12.jar  C:\workspace\runtime\java\maven_local_repo\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\fop-core\2.8\fop-core-2.8.jar  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-anim\1.16\batik-anim-1.16.jar  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-css\1.16\batik-css-1.16.jar  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-dom\1.16\batik-dom-1.16.jar  C:\workspace\runtime\java\maven_local_repo\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-ext\1.16\batik-ext-1.16.jar  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-parser\1.16\batik-parser-1.16.jar  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-shared-resources\1.16\batik-shared-resources-1.16.jar  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-svg-dom\1.16\batik-svg-dom-1.16.jar  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-util\1.16\batik-util-1.16.jar  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-constants\1.16\batik-constants-1.16.jar  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-i18n\1.16\batik-i18n-1.16.jar  C:\workspace\runtime\java\maven_local_repo\xml-apis\xml-apis-ext\1.3.04\xml-apis-ext-1.3.04.jar  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-awt-util\1.16\batik-awt-util-1.16.jar  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-bridge\1.16\batik-bridge-1.16.jar  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-script\1.16\batik-script-1.16.jar  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-xml\1.16\batik-xml-1.16.jar  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-extension\1.16\batik-extension-1.16.jar  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-gvt\1.16\batik-gvt-1.16.jar  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-transcoder\1.16\batik-transcoder-1.16.jar  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-svggen\1.16\batik-svggen-1.16.jar  C:\workspace\runtime\java\maven_local_repo\commons-logging\commons-logging\1.0.4\commons-logging-1.0.4.jar  C:\workspace\runtime\java\maven_local_repo\org\apache\pdfbox\fontbox\2.0.24\fontbox-2.0.24.jar  C:\workspace\runtime\java\maven_local_repo\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar  C:\workspace\runtime\java\maven_local_repo\org\slf4j\jcl-over-slf4j\1.7.36\jcl-over-slf4j-1.7.36.jar  C:\workspace\runtime\java\maven_local_repo\org\apache\logging\log4j\log4j-slf4j-impl\2.19.0\log4j-slf4j-impl-2.19.0.jar  C:\workspace\runtime\java\maven_local_repo\org\apache\logging\log4j\log4j-api\2.19.0\log4j-api-2.19.0.jar  C:\workspace\runtime\java\maven_local_repo\org\apache\logging\log4j\log4j-core\2.19.0\log4j-core-2.19.0.jar  C:\workspace\runtime\java\maven_local_repo\junit\junit\4.13.2\junit-4.13.2.jar  C:\workspace\runtime\java\maven_local_repo\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar
+[DEBUG] provider classpath:  C:\workspace\runtime\java\maven_local_repo\org\apache\maven\surefire\surefire-junit4\3.0.0-M7\surefire-junit4-3.0.0-M7.jar  C:\workspace\runtime\java\maven_local_repo\org\apache\maven\surefire\surefire-api\3.0.0-M7\surefire-api-3.0.0-M7.jar  C:\workspace\runtime\java\maven_local_repo\org\apache\maven\surefire\surefire-logger-api\3.0.0-M7\surefire-logger-api-3.0.0-M7.jar  C:\workspace\runtime\java\maven_local_repo\org\apache\maven\surefire\surefire-shared-utils\3.0.0-M7\surefire-shared-utils-3.0.0-M7.jar  C:\workspace\runtime\java\maven_local_repo\org\apache\maven\surefire\common-java5\3.0.0-M7\common-java5-3.0.0-M7.jar  C:\workspace\runtime\java\maven_local_repo\org\apache\maven\surefire\common-junit3\3.0.0-M7\common-junit3-3.0.0-M7.jar  C:\workspace\runtime\java\maven_local_repo\org\apache\maven\surefire\common-junit4\3.0.0-M7\common-junit4-3.0.0-M7.jar
+[DEBUG] test(compact) classpath:  test-classes  classes  fop-2.8.jar  fop-util-2.8.jar  xmlgraphics-commons-2.8.jar  fop-events-2.8.jar  qdox-1.12.jar  commons-io-2.11.0.jar  fop-core-2.8.jar  batik-anim-1.16.jar  batik-css-1.16.jar  batik-dom-1.16.jar  xml-apis-1.4.01.jar  batik-ext-1.16.jar  batik-parser-1.16.jar  batik-shared-resources-1.16.jar  batik-svg-dom-1.16.jar  batik-util-1.16.jar  batik-constants-1.16.jar  batik-i18n-1.16.jar  xml-apis-ext-1.3.04.jar  batik-awt-util-1.16.jar  batik-bridge-1.16.jar  batik-script-1.16.jar  batik-xml-1.16.jar  batik-extension-1.16.jar  batik-gvt-1.16.jar  batik-transcoder-1.16.jar  batik-svggen-1.16.jar  commons-logging-1.0.4.jar  fontbox-2.0.24.jar  slf4j-api-1.7.36.jar  jcl-over-slf4j-1.7.36.jar  log4j-slf4j-impl-2.19.0.jar  log4j-api-2.19.0.jar  log4j-core-2.19.0.jar  junit-4.13.2.jar  hamcrest-core-1.3.jar
+[DEBUG] provider(compact) classpath:  surefire-junit4-3.0.0-M7.jar  surefire-api-3.0.0-M7.jar  surefire-logger-api-3.0.0-M7.jar  surefire-shared-utils-3.0.0-M7.jar  common-java5-3.0.0-M7.jar  common-junit3-3.0.0-M7.jar  common-junit4-3.0.0-M7.jar
+[DEBUG] in-process classpath:  C:\workspace\runtime\java\maven_local_repo\org\apache\maven\surefire\surefire-junit4\3.0.0-M7\surefire-junit4-3.0.0-M7.jar  C:\workspace\runtime\java\maven_local_repo\org\apache\maven\surefire\surefire-api\3.0.0-M7\surefire-api-3.0.0-M7.jar  C:\workspace\runtime\java\maven_local_repo\org\apache\maven\surefire\surefire-logger-api\3.0.0-M7\surefire-logger-api-3.0.0-M7.jar  C:\workspace\runtime\java\maven_local_repo\org\apache\maven\surefire\surefire-shared-utils\3.0.0-M7\surefire-shared-utils-3.0.0-M7.jar  C:\workspace\runtime\java\maven_local_repo\org\apache\maven\surefire\common-java5\3.0.0-M7\common-java5-3.0.0-M7.jar  C:\workspace\runtime\java\maven_local_repo\org\apache\maven\surefire\common-junit3\3.0.0-M7\common-junit3-3.0.0-M7.jar  C:\workspace\runtime\java\maven_local_repo\org\apache\maven\surefire\common-junit4\3.0.0-M7\common-junit4-3.0.0-M7.jar  C:\workspace\runtime\java\maven_local_repo\org\apache\maven\surefire\maven-surefire-common\3.0.0-M7\maven-surefire-common-3.0.0-M7.jar  C:\workspace\runtime\java\maven_local_repo\org\apache\maven\surefire\surefire-booter\3.0.0-M7\surefire-booter-3.0.0-M7.jar  C:\workspace\runtime\java\maven_local_repo\org\apache\maven\surefire\surefire-extensions-api\3.0.0-M7\surefire-extensions-api-3.0.0-M7.jar  C:\workspace\runtime\java\maven_local_repo\org\apache\maven\surefire\surefire-extensions-spi\3.0.0-M7\surefire-extensions-spi-3.0.0-M7.jar
+[DEBUG] in-process(compact) classpath:  surefire-junit4-3.0.0-M7.jar  surefire-api-3.0.0-M7.jar  surefire-logger-api-3.0.0-M7.jar  surefire-shared-utils-3.0.0-M7.jar  common-java5-3.0.0-M7.jar  common-junit3-3.0.0-M7.jar  common-junit4-3.0.0-M7.jar  maven-surefire-common-3.0.0-M7.jar  surefire-booter-3.0.0-M7.jar  surefire-extensions-api-3.0.0-M7.jar  surefire-extensions-spi-3.0.0-M7.jar
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[DEBUG] Determined Maven Process ID 15652
+[DEBUG] Fork Channel [1] connection string 'pipe://1' for the implementation class org.apache.maven.plugin.surefire.extensions.LegacyForkChannel
+[DEBUG] boot classpath:  C:\workspace\runtime\java\maven_local_repo\org\apache\maven\surefire\surefire-booter\3.0.0-M7\surefire-booter-3.0.0-M7.jar  C:\workspace\runtime\java\maven_local_repo\org\apache\maven\surefire\surefire-api\3.0.0-M7\surefire-api-3.0.0-M7.jar  C:\workspace\runtime\java\maven_local_repo\org\apache\maven\surefire\surefire-logger-api\3.0.0-M7\surefire-logger-api-3.0.0-M7.jar  C:\workspace\runtime\java\maven_local_repo\org\apache\maven\surefire\surefire-shared-utils\3.0.0-M7\surefire-shared-utils-3.0.0-M7.jar  C:\workspace\runtime\java\maven_local_repo\org\apache\maven\surefire\surefire-extensions-spi\3.0.0-M7\surefire-extensions-spi-3.0.0-M7.jar  C:\workspace\git\fop-custom-resource-resolver-poc\target\test-classes  C:\workspace\git\fop-custom-resource-resolver-poc\target\classes  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\fop\2.8\fop-2.8.jar  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\fop-util\2.8\fop-util-2.8.jar  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\xmlgraphics-commons\2.8\xmlgraphics-commons-2.8.jar  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\fop-events\2.8\fop-events-2.8.jar  C:\workspace\runtime\java\maven_local_repo\com\thoughtworks\qdox\qdox\1.12\qdox-1.12.jar  C:\workspace\runtime\java\maven_local_repo\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\fop-core\2.8\fop-core-2.8.jar  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-anim\1.16\batik-anim-1.16.jar  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-css\1.16\batik-css-1.16.jar  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-dom\1.16\batik-dom-1.16.jar  C:\workspace\runtime\java\maven_local_repo\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-ext\1.16\batik-ext-1.16.jar  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-parser\1.16\batik-parser-1.16.jar  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-shared-resources\1.16\batik-shared-resources-1.16.jar  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-svg-dom\1.16\batik-svg-dom-1.16.jar  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-util\1.16\batik-util-1.16.jar  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-constants\1.16\batik-constants-1.16.jar  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-i18n\1.16\batik-i18n-1.16.jar  C:\workspace\runtime\java\maven_local_repo\xml-apis\xml-apis-ext\1.3.04\xml-apis-ext-1.3.04.jar  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-awt-util\1.16\batik-awt-util-1.16.jar  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-bridge\1.16\batik-bridge-1.16.jar  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-script\1.16\batik-script-1.16.jar  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-xml\1.16\batik-xml-1.16.jar  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-extension\1.16\batik-extension-1.16.jar  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-gvt\1.16\batik-gvt-1.16.jar  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-transcoder\1.16\batik-transcoder-1.16.jar  C:\workspace\runtime\java\maven_local_repo\org\apache\xmlgraphics\batik-svggen\1.16\batik-svggen-1.16.jar  C:\workspace\runtime\java\maven_local_repo\commons-logging\commons-logging\1.0.4\commons-logging-1.0.4.jar  C:\workspace\runtime\java\maven_local_repo\org\apache\pdfbox\fontbox\2.0.24\fontbox-2.0.24.jar  C:\workspace\runtime\java\maven_local_repo\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar  C:\workspace\runtime\java\maven_local_repo\org\slf4j\jcl-over-slf4j\1.7.36\jcl-over-slf4j-1.7.36.jar  C:\workspace\runtime\java\maven_local_repo\org\apache\logging\log4j\log4j-slf4j-impl\2.19.0\log4j-slf4j-impl-2.19.0.jar  C:\workspace\runtime\java\maven_local_repo\org\apache\logging\log4j\log4j-api\2.19.0\log4j-api-2.19.0.jar  C:\workspace\runtime\java\maven_local_repo\org\apache\logging\log4j\log4j-core\2.19.0\log4j-core-2.19.0.jar  C:\workspace\runtime\java\maven_local_repo\junit\junit\4.13.2\junit-4.13.2.jar  C:\workspace\runtime\java\maven_local_repo\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar  C:\workspace\runtime\java\maven_local_repo\org\apache\maven\surefire\surefire-junit4\3.0.0-M7\surefire-junit4-3.0.0-M7.jar  C:\workspace\runtime\java\maven_local_repo\org\apache\maven\surefire\common-java5\3.0.0-M7\common-java5-3.0.0-M7.jar  C:\workspace\runtime\java\maven_local_repo\org\apache\maven\surefire\common-junit3\3.0.0-M7\common-junit3-3.0.0-M7.jar  C:\workspace\runtime\java\maven_local_repo\org\apache\maven\surefire\common-junit4\3.0.0-M7\common-junit4-3.0.0-M7.jar
+[DEBUG] boot(compact) classpath:  surefire-booter-3.0.0-M7.jar  surefire-api-3.0.0-M7.jar  surefire-logger-api-3.0.0-M7.jar  surefire-shared-utils-3.0.0-M7.jar  surefire-extensions-spi-3.0.0-M7.jar  test-classes  classes  fop-2.8.jar  fop-util-2.8.jar  xmlgraphics-commons-2.8.jar  fop-events-2.8.jar  qdox-1.12.jar  commons-io-2.11.0.jar  fop-core-2.8.jar  batik-anim-1.16.jar  batik-css-1.16.jar  batik-dom-1.16.jar  xml-apis-1.4.01.jar  batik-ext-1.16.jar  batik-parser-1.16.jar  batik-shared-resources-1.16.jar  batik-svg-dom-1.16.jar  batik-util-1.16.jar  batik-constants-1.16.jar  batik-i18n-1.16.jar  xml-apis-ext-1.3.04.jar  batik-awt-util-1.16.jar  batik-bridge-1.16.jar  batik-script-1.16.jar  batik-xml-1.16.jar  batik-extension-1.16.jar  batik-gvt-1.16.jar  batik-transcoder-1.16.jar  batik-svggen-1.16.jar  commons-logging-1.0.4.jar  fontbox-2.0.24.jar  slf4j-api-1.7.36.jar  jcl-over-slf4j-1.7.36.jar  log4j-slf4j-impl-2.19.0.jar  log4j-api-2.19.0.jar  log4j-core-2.19.0.jar  junit-4.13.2.jar  hamcrest-core-1.3.jar  surefire-junit4-3.0.0-M7.jar  common-java5-3.0.0-M7.jar  common-junit3-3.0.0-M7.jar  common-junit4-3.0.0-M7.jar
+[DEBUG] Forking command line: cmd.exe /X /C "C:\workspace\runtime\java\jdk1.8.0_333\jre\bin\java -jar C:\Users\mttfranci\AppData\Local\Temp\surefire8321312271049557759\surefirebooter-20221120183347612_3.jar C:\Users\mttfranci\AppData\Local\Temp\surefire8321312271049557759 2022-11-20T18-33-46_853-jvmRun1 surefire-20221120183347612_1tmp surefire_0-20221120183347612_2tmp"
+[DEBUG] Fork Channel [1] connected to the client.
+[INFO] Running test.TestDocGeneration
+InternalResourceResolver_test - org.fugerit.java.poc.fop.custom.resource.resolver.ClassLoaderResourceResolver@639c2c1d
+2022-11-20 18:33:49.732 [main] INFO  org.apache.fop.apps.FopConfParser - Default page-height set to: 11in
+2022-11-20 18:33:49.736 [main] INFO  org.apache.fop.apps.FopConfParser - Default page-width set to: 8.26in
+InternalResourceResolver_test - org.apache.fop.apps.io.ResourceResolverFactory$DefaultResourceResolver@7133da86
+InternalResourceResolver_test - org.apache.fop.apps.io.ResourceResolverFactory$DefaultResourceResolver@7133da86
+InternalResourceResolver_test - org.fugerit.java.poc.fop.custom.resource.resolver.ClassLoaderResourceResolver@639c2c1d
+2022-11-20 18:33:51.330 [main] ERROR org.apache.fop.fonts.LazyFont - Failed to read font file classpath://font/TitilliumWeb-Regular.ttf unknown protocol: classpath
+java.net.MalformedURLException: unknown protocol: classpath
+	at java.net.URL.<init>(URL.java:617) ~[?:1.8.0_333]
+	at java.net.URL.<init>(URL.java:507) ~[?:1.8.0_333]
+	at java.net.URL.<init>(URL.java:456) ~[?:1.8.0_333]
+	at java.net.URI.toURL(URI.java:1089) ~[?:1.8.0_333]
+	at org.apache.fop.apps.io.ResourceResolverFactory$NormalResourceResolver.getResource(ResourceResolverFactory.java:224) ~[fop-2.8.jar:2.8]
+	at org.apache.fop.apps.io.ResourceResolverFactory$TempAwareResourceResolver.getResource(ResourceResolverFactory.java:152) ~[fop-2.8.jar:2.8]
+	at org.apache.fop.apps.io.ResourceResolverFactory$DefaultResourceResolver.getResource(ResourceResolverFactory.java:121) ~[fop-2.8.jar:2.8]
+	at org.apache.fop.apps.io.InternalResourceResolver.getResource(InternalResourceResolver.java:95) ~[fop-2.8.jar:2.8]
+	at org.apache.fop.fonts.truetype.OFFontLoader.read(OFFontLoader.java:113) ~[fop-2.8.jar:2.8]
+	at org.apache.fop.fonts.truetype.OFFontLoader.read(OFFontLoader.java:103) ~[fop-2.8.jar:2.8]
+	at org.apache.fop.fonts.FontLoader.getFont(FontLoader.java:126) ~[fop-2.8.jar:2.8]
+	at org.apache.fop.fonts.FontLoader.loadFont(FontLoader.java:110) ~[fop-2.8.jar:2.8]
+	at org.apache.fop.fonts.LazyFont.load(LazyFont.java:121) ~[fop-2.8.jar:2.8]
+	at org.apache.fop.fonts.LazyFont.getAscender(LazyFont.java:237) ~[fop-2.8.jar:2.8]
+	at org.apache.fop.fonts.Font.getAscender(Font.java:120) ~[fop-2.8.jar:2.8]
+	at org.apache.fop.layoutmgr.BlockLayoutManager.initialize(BlockLayoutManager.java:82) ~[fop-2.8.jar:2.8]
+	at org.apache.fop.layoutmgr.AbstractLayoutManager.getChildLM(AbstractLayoutManager.java:118) ~[fop-2.8.jar:2.8]
+	at org.apache.fop.layoutmgr.FlowLayoutManager.getNextKnuthElements(FlowLayoutManager.java:108) ~[fop-2.8.jar:2.8]
+	at org.apache.fop.layoutmgr.FlowLayoutManager.getNextKnuthElements(FlowLayoutManager.java:69) ~[fop-2.8.jar:2.8]
+	at org.apache.fop.layoutmgr.PageBreaker.getNextKnuthElements(PageBreaker.java:252) ~[fop-2.8.jar:2.8]
+	at org.apache.fop.layoutmgr.AbstractBreaker.getNextBlockList(AbstractBreaker.java:675) ~[fop-2.8.jar:2.8]
+	at org.apache.fop.layoutmgr.PageBreaker.getNextBlockList(PageBreaker.java:179) ~[fop-2.8.jar:2.8]
+	at org.apache.fop.layoutmgr.PageBreaker.getNextBlockList(PageBreaker.java:159) ~[fop-2.8.jar:2.8]
+	at org.apache.fop.layoutmgr.AbstractBreaker.doLayout(AbstractBreaker.java:385) ~[fop-2.8.jar:2.8]
+	at org.apache.fop.layoutmgr.PageBreaker.doLayout(PageBreaker.java:113) ~[fop-2.8.jar:2.8]
+	at org.apache.fop.layoutmgr.PageSequenceLayoutManager.activateLayout(PageSequenceLayoutManager.java:143) ~[fop-2.8.jar:2.8]
+	at org.apache.fop.area.AreaTreeHandler.endPageSequence(AreaTreeHandler.java:267) ~[fop-2.8.jar:2.8]
+	at org.apache.fop.fo.pagination.PageSequence.endOfNode(PageSequence.java:140) ~[fop-2.8.jar:2.8]
+	at org.apache.fop.fo.FOTreeBuilder$MainFOHandler.endElement(FOTreeBuilder.java:390) ~[fop-2.8.jar:2.8]
+	at org.apache.fop.fo.FOTreeBuilder$3.run(FOTreeBuilder.java:207) ~[fop-2.8.jar:2.8]
+	at org.apache.fop.fo.FOTreeBuilder$3.run(FOTreeBuilder.java:204) ~[fop-2.8.jar:2.8]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_333]
+	at org.apache.fop.fo.FOTreeBuilder.endElement(FOTreeBuilder.java:203) ~[fop-2.8.jar:2.8]
+	at com.sun.org.apache.xml.internal.serializer.ToXMLSAXHandler.endElement(ToXMLSAXHandler.java:263) ~[?:1.8.0_333]
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(AbstractSAXParser.java:610) ~[?:1.8.0_333]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1784) ~[?:1.8.0_333]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2969) ~[?:1.8.0_333]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605) ~[?:1.8.0_333]
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:113) ~[?:1.8.0_333]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:507) ~[?:1.8.0_333]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:867) ~[?:1.8.0_333]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:796) ~[?:1.8.0_333]
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:142) ~[?:1.8.0_333]
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1216) ~[?:1.8.0_333]
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:644) ~[?:1.8.0_333]
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(TransformerImpl.java:634) ~[?:1.8.0_333]
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:730) ~[?:1.8.0_333]
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:345) ~[?:1.8.0_333]
+	at org.fugerit.java.poc.fop.custom.resource.resolver.SampleDocumentGenerator.generateDoc(SampleDocumentGenerator.java:75) ~[classes/:?]
+	at test.TestDocGeneration.generate(TestDocGeneration.java:12) ~[test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_333]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_333]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_333]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_333]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) ~[junit-4.13.2.jar:4.13.2]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:377) ~[surefire-junit4-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:284) ~[surefire-junit4-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:248) ~[surefire-junit4-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:167) ~[surefire-junit4-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456) ~[surefire-booter-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169) ~[surefire-booter-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595) ~[surefire-booter-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581) ~[surefire-booter-3.0.0-M7.jar:3.0.0-M7]
+ERROR:  'Failed to read font file classpath://font/TitilliumWeb-Regular.ttf unknown protocol: classpath'
+2022-11-20 18:33:51.347 [main] ERROR org.fugerit.java.poc.fop.custom.resource.resolver.SampleDocumentGenerator - Error genrating document : javax.xml.transform.TransformerException: java.lang.RuntimeException: Failed to read font file classpath://font/TitilliumWeb-Regular.ttf unknown protocol: classpath
+javax.xml.transform.TransformerException: java.lang.RuntimeException: Failed to read font file classpath://font/TitilliumWeb-Regular.ttf unknown protocol: classpath
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:739) ~[?:1.8.0_333]
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:345) ~[?:1.8.0_333]
+	at org.fugerit.java.poc.fop.custom.resource.resolver.SampleDocumentGenerator.generateDoc(SampleDocumentGenerator.java:75) ~[classes/:?]
+	at test.TestDocGeneration.generate(TestDocGeneration.java:12) ~[test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_333]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_333]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_333]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_333]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) ~[junit-4.13.2.jar:4.13.2]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:377) ~[surefire-junit4-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:284) ~[surefire-junit4-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:248) ~[surefire-junit4-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:167) ~[surefire-junit4-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456) ~[surefire-booter-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169) ~[surefire-booter-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595) ~[surefire-booter-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581) ~[surefire-booter-3.0.0-M7.jar:3.0.0-M7]
+Caused by: java.lang.RuntimeException: Failed to read font file classpath://font/TitilliumWeb-Regular.ttf unknown protocol: classpath
+	at org.apache.fop.fonts.LazyFont.load(LazyFont.java:134) ~[fop-2.8.jar:2.8]
+	at org.apache.fop.fonts.LazyFont.getAscender(LazyFont.java:237) ~[fop-2.8.jar:2.8]
+	at org.apache.fop.fonts.Font.getAscender(Font.java:120) ~[fop-2.8.jar:2.8]
+	at org.apache.fop.layoutmgr.BlockLayoutManager.initialize(BlockLayoutManager.java:82) ~[fop-2.8.jar:2.8]
+	at org.apache.fop.layoutmgr.AbstractLayoutManager.getChildLM(AbstractLayoutManager.java:118) ~[fop-2.8.jar:2.8]
+	at org.apache.fop.layoutmgr.FlowLayoutManager.getNextKnuthElements(FlowLayoutManager.java:108) ~[fop-2.8.jar:2.8]
+	at org.apache.fop.layoutmgr.FlowLayoutManager.getNextKnuthElements(FlowLayoutManager.java:69) ~[fop-2.8.jar:2.8]
+	at org.apache.fop.layoutmgr.PageBreaker.getNextKnuthElements(PageBreaker.java:252) ~[fop-2.8.jar:2.8]
+	at org.apache.fop.layoutmgr.AbstractBreaker.getNextBlockList(AbstractBreaker.java:675) ~[fop-2.8.jar:2.8]
+	at org.apache.fop.layoutmgr.PageBreaker.getNextBlockList(PageBreaker.java:179) ~[fop-2.8.jar:2.8]
+	at org.apache.fop.layoutmgr.PageBreaker.getNextBlockList(PageBreaker.java:159) ~[fop-2.8.jar:2.8]
+	at org.apache.fop.layoutmgr.AbstractBreaker.doLayout(AbstractBreaker.java:385) ~[fop-2.8.jar:2.8]
+	at org.apache.fop.layoutmgr.PageBreaker.doLayout(PageBreaker.java:113) ~[fop-2.8.jar:2.8]
+	at org.apache.fop.layoutmgr.PageSequenceLayoutManager.activateLayout(PageSequenceLayoutManager.java:143) ~[fop-2.8.jar:2.8]
+	at org.apache.fop.area.AreaTreeHandler.endPageSequence(AreaTreeHandler.java:267) ~[fop-2.8.jar:2.8]
+	at org.apache.fop.fo.pagination.PageSequence.endOfNode(PageSequence.java:140) ~[fop-2.8.jar:2.8]
+	at org.apache.fop.fo.FOTreeBuilder$MainFOHandler.endElement(FOTreeBuilder.java:390) ~[fop-2.8.jar:2.8]
+	at org.apache.fop.fo.FOTreeBuilder$3.run(FOTreeBuilder.java:207) ~[fop-2.8.jar:2.8]
+	at org.apache.fop.fo.FOTreeBuilder$3.run(FOTreeBuilder.java:204) ~[fop-2.8.jar:2.8]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_333]
+	at org.apache.fop.fo.FOTreeBuilder.endElement(FOTreeBuilder.java:203) ~[fop-2.8.jar:2.8]
+	at com.sun.org.apache.xml.internal.serializer.ToXMLSAXHandler.endElement(ToXMLSAXHandler.java:263) ~[?:1.8.0_333]
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(AbstractSAXParser.java:610) ~[?:1.8.0_333]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1784) ~[?:1.8.0_333]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2969) ~[?:1.8.0_333]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605) ~[?:1.8.0_333]
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:113) ~[?:1.8.0_333]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:507) ~[?:1.8.0_333]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:867) ~[?:1.8.0_333]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:796) ~[?:1.8.0_333]
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:142) ~[?:1.8.0_333]
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1216) ~[?:1.8.0_333]
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:644) ~[?:1.8.0_333]
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(TransformerImpl.java:634) ~[?:1.8.0_333]
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:730) ~[?:1.8.0_333]
+	... 31 more
+Caused by: java.net.MalformedURLException: unknown protocol: classpath
+	at java.net.URL.<init>(URL.java:617) ~[?:1.8.0_333]
+	at java.net.URL.<init>(URL.java:507) ~[?:1.8.0_333]
+	at java.net.URL.<init>(URL.java:456) ~[?:1.8.0_333]
+	at java.net.URI.toURL(URI.java:1089) ~[?:1.8.0_333]
+	at org.apache.fop.apps.io.ResourceResolverFactory$NormalResourceResolver.getResource(ResourceResolverFactory.java:224) ~[fop-2.8.jar:2.8]
+	at org.apache.fop.apps.io.ResourceResolverFactory$TempAwareResourceResolver.getResource(ResourceResolverFactory.java:152) ~[fop-2.8.jar:2.8]
+	at org.apache.fop.apps.io.ResourceResolverFactory$DefaultResourceResolver.getResource(ResourceResolverFactory.java:121) ~[fop-2.8.jar:2.8]
+	at org.apache.fop.apps.io.InternalResourceResolver.getResource(InternalResourceResolver.java:95) ~[fop-2.8.jar:2.8]
+	at org.apache.fop.fonts.truetype.OFFontLoader.read(OFFontLoader.java:113) ~[fop-2.8.jar:2.8]
+	at org.apache.fop.fonts.truetype.OFFontLoader.read(OFFontLoader.java:103) ~[fop-2.8.jar:2.8]
+	at org.apache.fop.fonts.FontLoader.getFont(FontLoader.java:126) ~[fop-2.8.jar:2.8]
+	at org.apache.fop.fonts.FontLoader.loadFont(FontLoader.java:110) ~[fop-2.8.jar:2.8]
+	at org.apache.fop.fonts.LazyFont.load(LazyFont.java:121) ~[fop-2.8.jar:2.8]
+	at org.apache.fop.fonts.LazyFont.getAscender(LazyFont.java:237) ~[fop-2.8.jar:2.8]
+	at org.apache.fop.fonts.Font.getAscender(Font.java:120) ~[fop-2.8.jar:2.8]
+	at org.apache.fop.layoutmgr.BlockLayoutManager.initialize(BlockLayoutManager.java:82) ~[fop-2.8.jar:2.8]
+	at org.apache.fop.layoutmgr.AbstractLayoutManager.getChildLM(AbstractLayoutManager.java:118) ~[fop-2.8.jar:2.8]
+	at org.apache.fop.layoutmgr.FlowLayoutManager.getNextKnuthElements(FlowLayoutManager.java:108) ~[fop-2.8.jar:2.8]
+	at org.apache.fop.layoutmgr.FlowLayoutManager.getNextKnuthElements(FlowLayoutManager.java:69) ~[fop-2.8.jar:2.8]
+	at org.apache.fop.layoutmgr.PageBreaker.getNextKnuthElements(PageBreaker.java:252) ~[fop-2.8.jar:2.8]
+	at org.apache.fop.layoutmgr.AbstractBreaker.getNextBlockList(AbstractBreaker.java:675) ~[fop-2.8.jar:2.8]
+	at org.apache.fop.layoutmgr.PageBreaker.getNextBlockList(PageBreaker.java:179) ~[fop-2.8.jar:2.8]
+	at org.apache.fop.layoutmgr.PageBreaker.getNextBlockList(PageBreaker.java:159) ~[fop-2.8.jar:2.8]
+	at org.apache.fop.layoutmgr.AbstractBreaker.doLayout(AbstractBreaker.java:385) ~[fop-2.8.jar:2.8]
+	at org.apache.fop.layoutmgr.PageBreaker.doLayout(PageBreaker.java:113) ~[fop-2.8.jar:2.8]
+	at org.apache.fop.layoutmgr.PageSequenceLayoutManager.activateLayout(PageSequenceLayoutManager.java:143) ~[fop-2.8.jar:2.8]
+	at org.apache.fop.area.AreaTreeHandler.endPageSequence(AreaTreeHandler.java:267) ~[fop-2.8.jar:2.8]
+	at org.apache.fop.fo.pagination.PageSequence.endOfNode(PageSequence.java:140) ~[fop-2.8.jar:2.8]
+	at org.apache.fop.fo.FOTreeBuilder$MainFOHandler.endElement(FOTreeBuilder.java:390) ~[fop-2.8.jar:2.8]
+	at org.apache.fop.fo.FOTreeBuilder$3.run(FOTreeBuilder.java:207) ~[fop-2.8.jar:2.8]
+	at org.apache.fop.fo.FOTreeBuilder$3.run(FOTreeBuilder.java:204) ~[fop-2.8.jar:2.8]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_333]
+	at org.apache.fop.fo.FOTreeBuilder.endElement(FOTreeBuilder.java:203) ~[fop-2.8.jar:2.8]
+	at com.sun.org.apache.xml.internal.serializer.ToXMLSAXHandler.endElement(ToXMLSAXHandler.java:263) ~[?:1.8.0_333]
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(AbstractSAXParser.java:610) ~[?:1.8.0_333]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1784) ~[?:1.8.0_333]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2969) ~[?:1.8.0_333]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605) ~[?:1.8.0_333]
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:113) ~[?:1.8.0_333]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:507) ~[?:1.8.0_333]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:867) ~[?:1.8.0_333]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:796) ~[?:1.8.0_333]
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:142) ~[?:1.8.0_333]
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1216) ~[?:1.8.0_333]
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:644) ~[?:1.8.0_333]
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(TransformerImpl.java:634) ~[?:1.8.0_333]
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:730) ~[?:1.8.0_333]
+	... 31 more
+[ERROR] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 2.802 s <<< FAILURE! - in test.TestDocGeneration
+[ERROR] test.TestDocGeneration.generate  Time elapsed: 2.626 s  <<< FAILURE!
+java.lang.AssertionError: expected:<1> but was:<0>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at test.TestDocGeneration.generate(TestDocGeneration.java:13)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:377)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:284)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:248)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:167)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+
+[DEBUG] Closing the fork 1 after saying GoodBye.
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   TestDocGeneration.generate:13 expected:<1> but was:<0>
+[INFO] 
+[ERROR] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  9.401 s
+[INFO] Finished at: 2022-11-20T18:33:51+01:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.0.0-M7:test (default-test) on project fop-custom-resource-resolver-poc: There are test failures.
+[ERROR] 
+[ERROR] Please refer to C:\workspace\git\fop-custom-resource-resolver-poc\target\surefire-reports for the individual test results.
+[ERROR] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+org.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.0.0-M7:test (default-test) on project fop-custom-resource-resolver-poc: There are test failures.
+
+Please refer to C:\workspace\git\fop-custom-resource-resolver-poc\target\surefire-reports for the individual test results.
+Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 (MojoExecutor.java:375)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:351)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:215)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:171)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:163)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:117)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:56)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:128)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:294)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:960)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:293)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:196)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:498)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:282)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:225)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:406)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:347)
+Caused by: org.apache.maven.plugin.MojoFailureException: There are test failures.
+
+Please refer to C:\workspace\git\fop-custom-resource-resolver-poc\target\surefire-reports for the individual test results.
+Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+    at org.apache.maven.plugin.surefire.SurefireHelper.throwException (SurefireHelper.java:283)
+    at org.apache.maven.plugin.surefire.SurefireHelper.reportExecution (SurefireHelper.java:171)
+    at org.apache.maven.plugin.surefire.SurefirePlugin.handleSummary (SurefirePlugin.java:546)
+    at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked (AbstractSurefireMojo.java:1183)
+    at org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute (AbstractSurefireMojo.java:931)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:137)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 (MojoExecutor.java:370)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:351)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:215)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:171)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:163)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:117)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:56)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:128)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:294)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:960)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:293)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:196)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:498)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:282)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:225)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:406)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:347)
+[ERROR] 
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

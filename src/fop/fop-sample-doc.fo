@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fo:root 
+font-family="Times New Roman" font-size="20pt" 	xmlns:fo="http://www.w3.org/1999/XSL/Format"
+	xmlns:fox="http://xmlgraphics.apache.org/fop/extensions">
+	<fo:layout-master-set>
+		<fo:simple-page-master
+			page-width="21cm" 
+			page-height="29.7cm" 
+			master-name="simpleA4" 
+			margin-left="10pt"
+			margin-right="10pt"
+			margin-top="10pt"
+			margin-bottom="30pt">
+				<fo:region-body region-name="xsl-region-body"   margin-bottom='15mm' />
+            	<fo:region-after region-name="xsl-region-after" extent="15mm"/>
+		</fo:simple-page-master>
+	</fo:layout-master-set>
+	<fo:page-sequence master-reference="simpleA4" initial-page-number="1">
+		<fo:flow flow-name="xsl-region-body" >
+	        <fo:block role="H1" font-family="TitilliumWeb">Test test</fo:block>
+		</fo:flow>
+	</fo:page-sequence>
+</fo:root>
