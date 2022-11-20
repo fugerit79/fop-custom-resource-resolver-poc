@@ -1,0 +1,255 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] Using the MultiThreadedBuilder implementation with a thread count of 2
+[INFO] 
+[INFO] -------< org.fugerit.java.poc:fop-custom-resource-resolver-poc >--------
+[INFO] Building fop-custom-resource-resolver-po 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ fop-custom-resource-resolver-poc ---
+[INFO] Deleting /omnia/workspace/git/fop-custom-resource-resolver-poc/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ fop-custom-resource-resolver-poc ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 4 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ fop-custom-resource-resolver-poc ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /omnia/workspace/git/fop-custom-resource-resolver-poc/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ fop-custom-resource-resolver-poc ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ fop-custom-resource-resolver-poc ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /omnia/workspace/git/fop-custom-resource-resolver-poc/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M7:test (default-test) @ fop-custom-resource-resolver-poc ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junit4.JUnit4Provider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running test.TestDocGeneration
+2022-11-20 19:19:31.436 [main] INFO  org.apache.fop.apps.FopConfParser - Default page-height set to: 11in
+2022-11-20 19:19:31.437 [main] INFO  org.apache.fop.apps.FopConfParser - Default page-width set to: 8.26in
+2022-11-20 19:19:31.828 [main] ERROR org.apache.fop.fonts.LazyFont - Failed to read font file classpath://font/TitilliumWeb-Regular.ttf unknown protocol: classpath
+java.net.MalformedURLException: unknown protocol: classpath
+	at java.net.URL.<init>(URL.java:617) ~[?:1.8.0_333]
+	at java.net.URL.<init>(URL.java:507) ~[?:1.8.0_333]
+	at java.net.URL.<init>(URL.java:456) ~[?:1.8.0_333]
+	at java.net.URI.toURL(URI.java:1089) ~[?:1.8.0_333]
+	at org.apache.fop.apps.io.ResourceResolverFactory$NormalResourceResolver.getResource(ResourceResolverFactory.java:224) ~[fop-2.7.jar:2.7]
+	at org.apache.fop.apps.io.ResourceResolverFactory$TempAwareResourceResolver.getResource(ResourceResolverFactory.java:152) ~[fop-2.7.jar:2.7]
+	at org.apache.fop.apps.io.ResourceResolverFactory$DefaultResourceResolver.getResource(ResourceResolverFactory.java:121) ~[fop-2.7.jar:2.7]
+	at org.apache.fop.apps.io.InternalResourceResolver.getResource(InternalResourceResolver.java:92) ~[fop-2.7.jar:2.7]
+	at org.apache.fop.fonts.truetype.OFFontLoader.read(OFFontLoader.java:113) ~[fop-2.7.jar:2.7]
+	at org.apache.fop.fonts.truetype.OFFontLoader.read(OFFontLoader.java:103) ~[fop-2.7.jar:2.7]
+	at org.apache.fop.fonts.FontLoader.getFont(FontLoader.java:126) ~[fop-2.7.jar:2.7]
+	at org.apache.fop.fonts.FontLoader.loadFont(FontLoader.java:110) ~[fop-2.7.jar:2.7]
+	at org.apache.fop.fonts.LazyFont.load(LazyFont.java:121) ~[fop-2.7.jar:2.7]
+	at org.apache.fop.fonts.LazyFont.getAscender(LazyFont.java:237) ~[fop-2.7.jar:2.7]
+	at org.apache.fop.fonts.Font.getAscender(Font.java:120) ~[fop-2.7.jar:2.7]
+	at org.apache.fop.layoutmgr.BlockLayoutManager.initialize(BlockLayoutManager.java:82) ~[fop-2.7.jar:2.7]
+	at org.apache.fop.layoutmgr.AbstractLayoutManager.getChildLM(AbstractLayoutManager.java:118) ~[fop-2.7.jar:2.7]
+	at org.apache.fop.layoutmgr.FlowLayoutManager.getNextKnuthElements(FlowLayoutManager.java:108) ~[fop-2.7.jar:2.7]
+	at org.apache.fop.layoutmgr.FlowLayoutManager.getNextKnuthElements(FlowLayoutManager.java:69) ~[fop-2.7.jar:2.7]
+	at org.apache.fop.layoutmgr.PageBreaker.getNextKnuthElements(PageBreaker.java:252) ~[fop-2.7.jar:2.7]
+	at org.apache.fop.layoutmgr.AbstractBreaker.getNextBlockList(AbstractBreaker.java:675) ~[fop-2.7.jar:2.7]
+	at org.apache.fop.layoutmgr.PageBreaker.getNextBlockList(PageBreaker.java:179) ~[fop-2.7.jar:2.7]
+	at org.apache.fop.layoutmgr.PageBreaker.getNextBlockList(PageBreaker.java:159) ~[fop-2.7.jar:2.7]
+	at org.apache.fop.layoutmgr.AbstractBreaker.doLayout(AbstractBreaker.java:385) ~[fop-2.7.jar:2.7]
+	at org.apache.fop.layoutmgr.PageBreaker.doLayout(PageBreaker.java:113) ~[fop-2.7.jar:2.7]
+	at org.apache.fop.layoutmgr.PageSequenceLayoutManager.activateLayout(PageSequenceLayoutManager.java:143) ~[fop-2.7.jar:2.7]
+	at org.apache.fop.area.AreaTreeHandler.endPageSequence(AreaTreeHandler.java:267) ~[fop-2.7.jar:2.7]
+	at org.apache.fop.fo.pagination.PageSequence.endOfNode(PageSequence.java:140) ~[fop-2.7.jar:2.7]
+	at org.apache.fop.fo.FOTreeBuilder$MainFOHandler.endElement(FOTreeBuilder.java:390) ~[fop-2.7.jar:2.7]
+	at org.apache.fop.fo.FOTreeBuilder$3.run(FOTreeBuilder.java:207) ~[fop-2.7.jar:2.7]
+	at org.apache.fop.fo.FOTreeBuilder$3.run(FOTreeBuilder.java:204) ~[fop-2.7.jar:2.7]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_333]
+	at org.apache.fop.fo.FOTreeBuilder.endElement(FOTreeBuilder.java:203) ~[fop-2.7.jar:2.7]
+	at org.apache.xalan.transformer.TransformerIdentityImpl.endElement(TransformerIdentityImpl.java:1102) ~[xalan-2.7.2.jar:?]
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(AbstractSAXParser.java:610) ~[?:1.8.0_333]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1784) ~[?:1.8.0_333]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2969) ~[?:1.8.0_333]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605) ~[?:1.8.0_333]
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:113) ~[?:1.8.0_333]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:507) ~[?:1.8.0_333]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:867) ~[?:1.8.0_333]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:796) ~[?:1.8.0_333]
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:142) ~[?:1.8.0_333]
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1216) ~[?:1.8.0_333]
+	at org.apache.xalan.transformer.TransformerIdentityImpl.transform(TransformerIdentityImpl.java:485) ~[xalan-2.7.2.jar:?]
+	at org.fugerit.java.poc.fop.custom.resource.resolver.SampleDocumentGenerator.generateDoc(SampleDocumentGenerator.java:75) ~[classes/:?]
+	at test.TestDocGeneration.generate(TestDocGeneration.java:12) ~[test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_333]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_333]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_333]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_333]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) ~[junit-4.13.2.jar:4.13.2]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:377) ~[surefire-junit4-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:284) ~[surefire-junit4-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:248) ~[surefire-junit4-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:167) ~[surefire-junit4-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456) ~[surefire-booter-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169) ~[surefire-booter-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595) ~[surefire-booter-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581) ~[surefire-booter-3.0.0-M7.jar:3.0.0-M7]
+2022-11-20 19:19:31.833 [main] ERROR org.fugerit.java.poc.fop.custom.resource.resolver.SampleDocumentGenerator - Error genrating document : java.lang.RuntimeException: Failed to read font file classpath://font/TitilliumWeb-Regular.ttf unknown protocol: classpath
+java.lang.RuntimeException: Failed to read font file classpath://font/TitilliumWeb-Regular.ttf unknown protocol: classpath
+	at org.apache.fop.fonts.LazyFont.load(LazyFont.java:134) ~[fop-2.7.jar:2.7]
+	at org.apache.fop.fonts.LazyFont.getAscender(LazyFont.java:237) ~[fop-2.7.jar:2.7]
+	at org.apache.fop.fonts.Font.getAscender(Font.java:120) ~[fop-2.7.jar:2.7]
+	at org.apache.fop.layoutmgr.BlockLayoutManager.initialize(BlockLayoutManager.java:82) ~[fop-2.7.jar:2.7]
+	at org.apache.fop.layoutmgr.AbstractLayoutManager.getChildLM(AbstractLayoutManager.java:118) ~[fop-2.7.jar:2.7]
+	at org.apache.fop.layoutmgr.FlowLayoutManager.getNextKnuthElements(FlowLayoutManager.java:108) ~[fop-2.7.jar:2.7]
+	at org.apache.fop.layoutmgr.FlowLayoutManager.getNextKnuthElements(FlowLayoutManager.java:69) ~[fop-2.7.jar:2.7]
+	at org.apache.fop.layoutmgr.PageBreaker.getNextKnuthElements(PageBreaker.java:252) ~[fop-2.7.jar:2.7]
+	at org.apache.fop.layoutmgr.AbstractBreaker.getNextBlockList(AbstractBreaker.java:675) ~[fop-2.7.jar:2.7]
+	at org.apache.fop.layoutmgr.PageBreaker.getNextBlockList(PageBreaker.java:179) ~[fop-2.7.jar:2.7]
+	at org.apache.fop.layoutmgr.PageBreaker.getNextBlockList(PageBreaker.java:159) ~[fop-2.7.jar:2.7]
+	at org.apache.fop.layoutmgr.AbstractBreaker.doLayout(AbstractBreaker.java:385) ~[fop-2.7.jar:2.7]
+	at org.apache.fop.layoutmgr.PageBreaker.doLayout(PageBreaker.java:113) ~[fop-2.7.jar:2.7]
+	at org.apache.fop.layoutmgr.PageSequenceLayoutManager.activateLayout(PageSequenceLayoutManager.java:143) ~[fop-2.7.jar:2.7]
+	at org.apache.fop.area.AreaTreeHandler.endPageSequence(AreaTreeHandler.java:267) ~[fop-2.7.jar:2.7]
+	at org.apache.fop.fo.pagination.PageSequence.endOfNode(PageSequence.java:140) ~[fop-2.7.jar:2.7]
+	at org.apache.fop.fo.FOTreeBuilder$MainFOHandler.endElement(FOTreeBuilder.java:390) ~[fop-2.7.jar:2.7]
+	at org.apache.fop.fo.FOTreeBuilder$3.run(FOTreeBuilder.java:207) ~[fop-2.7.jar:2.7]
+	at org.apache.fop.fo.FOTreeBuilder$3.run(FOTreeBuilder.java:204) ~[fop-2.7.jar:2.7]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_333]
+	at org.apache.fop.fo.FOTreeBuilder.endElement(FOTreeBuilder.java:203) ~[fop-2.7.jar:2.7]
+	at org.apache.xalan.transformer.TransformerIdentityImpl.endElement(TransformerIdentityImpl.java:1102) ~[xalan-2.7.2.jar:?]
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(AbstractSAXParser.java:610) ~[?:1.8.0_333]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1784) ~[?:1.8.0_333]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2969) ~[?:1.8.0_333]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605) ~[?:1.8.0_333]
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:113) ~[?:1.8.0_333]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:507) ~[?:1.8.0_333]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:867) ~[?:1.8.0_333]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:796) ~[?:1.8.0_333]
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:142) ~[?:1.8.0_333]
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1216) ~[?:1.8.0_333]
+	at org.apache.xalan.transformer.TransformerIdentityImpl.transform(TransformerIdentityImpl.java:485) ~[xalan-2.7.2.jar:?]
+	at org.fugerit.java.poc.fop.custom.resource.resolver.SampleDocumentGenerator.generateDoc(SampleDocumentGenerator.java:75) ~[classes/:?]
+	at test.TestDocGeneration.generate(TestDocGeneration.java:12) ~[test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_333]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_333]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_333]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_333]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) ~[junit-4.13.2.jar:4.13.2]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:377) ~[surefire-junit4-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:284) ~[surefire-junit4-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:248) ~[surefire-junit4-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:167) ~[surefire-junit4-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456) ~[surefire-booter-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169) ~[surefire-booter-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595) ~[surefire-booter-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581) ~[surefire-booter-3.0.0-M7.jar:3.0.0-M7]
+Caused by: java.net.MalformedURLException: unknown protocol: classpath
+	at java.net.URL.<init>(URL.java:617) ~[?:1.8.0_333]
+	at java.net.URL.<init>(URL.java:507) ~[?:1.8.0_333]
+	at java.net.URL.<init>(URL.java:456) ~[?:1.8.0_333]
+	at java.net.URI.toURL(URI.java:1089) ~[?:1.8.0_333]
+	at org.apache.fop.apps.io.ResourceResolverFactory$NormalResourceResolver.getResource(ResourceResolverFactory.java:224) ~[fop-2.7.jar:2.7]
+	at org.apache.fop.apps.io.ResourceResolverFactory$TempAwareResourceResolver.getResource(ResourceResolverFactory.java:152) ~[fop-2.7.jar:2.7]
+	at org.apache.fop.apps.io.ResourceResolverFactory$DefaultResourceResolver.getResource(ResourceResolverFactory.java:121) ~[fop-2.7.jar:2.7]
+	at org.apache.fop.apps.io.InternalResourceResolver.getResource(InternalResourceResolver.java:92) ~[fop-2.7.jar:2.7]
+	at org.apache.fop.fonts.truetype.OFFontLoader.read(OFFontLoader.java:113) ~[fop-2.7.jar:2.7]
+	at org.apache.fop.fonts.truetype.OFFontLoader.read(OFFontLoader.java:103) ~[fop-2.7.jar:2.7]
+	at org.apache.fop.fonts.FontLoader.getFont(FontLoader.java:126) ~[fop-2.7.jar:2.7]
+	at org.apache.fop.fonts.FontLoader.loadFont(FontLoader.java:110) ~[fop-2.7.jar:2.7]
+	at org.apache.fop.fonts.LazyFont.load(LazyFont.java:121) ~[fop-2.7.jar:2.7]
+	... 62 more
+[ERROR] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.71 s <<< FAILURE! - in test.TestDocGeneration
+[ERROR] test.TestDocGeneration.generate  Time elapsed: 0.685 s  <<< FAILURE!
+java.lang.AssertionError: expected:<1> but was:<0>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at test.TestDocGeneration.generate(TestDocGeneration.java:13)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:377)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:284)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:248)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:167)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   TestDocGeneration.generate:13 expected:<1> but was:<0>
+[INFO] 
+[ERROR] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.807 s (Wall Clock)
+[INFO] Finished at: 2022-11-20T19:19:31+01:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.0.0-M7:test (default-test) on project fop-custom-resource-resolver-poc: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /omnia/workspace/git/fop-custom-resource-resolver-poc/target/surefire-reports for the individual test results.
+[ERROR] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

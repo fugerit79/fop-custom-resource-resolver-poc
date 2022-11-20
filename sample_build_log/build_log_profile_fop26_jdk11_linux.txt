@@ -1,0 +1,64 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] Using the MultiThreadedBuilder implementation with a thread count of 2
+[INFO] 
+[INFO] -------< org.fugerit.java.poc:fop-custom-resource-resolver-poc >--------
+[INFO] Building fop-custom-resource-resolver-po 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ fop-custom-resource-resolver-poc ---
+[INFO] Deleting /omnia/workspace/git/fop-custom-resource-resolver-poc/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ fop-custom-resource-resolver-poc ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 4 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ fop-custom-resource-resolver-poc ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /omnia/workspace/git/fop-custom-resource-resolver-poc/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ fop-custom-resource-resolver-poc ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ fop-custom-resource-resolver-poc ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /omnia/workspace/git/fop-custom-resource-resolver-poc/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M7:test (default-test) @ fop-custom-resource-resolver-poc ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junit4.JUnit4Provider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running test.TestDocGeneration
+2022-11-20 19:15:17.596 [main] INFO  org.fugerit.java.poc.fop.custom.resource.resolver.ClassLoaderResourceResolver - TestClassLoaderResourceResolver.getResource() -> file:/omnia/workspace/git/fop-custom-resource-resolver-poc/./src/main/resources/font/TitilliumWeb-Regular.ttf
+2022-11-20 19:15:17.647 [main] INFO  org.fugerit.java.poc.fop.custom.resource.resolver.ClassLoaderResourceResolver - TestClassLoaderResourceResolver.getResource() -> file:/omnia/workspace/git/fop-custom-resource-resolver-poc/./src/main/resources/font/TitilliumWeb-Bold.ttf
+2022-11-20 19:15:17.650 [main] INFO  org.fugerit.java.poc.fop.custom.resource.resolver.ClassLoaderResourceResolver - TestClassLoaderResourceResolver.getResource() -> file:/omnia/workspace/git/fop-custom-resource-resolver-poc/./src/main/resources/font/TitilliumWeb-BoldItalic.ttf
+2022-11-20 19:15:17.652 [main] INFO  org.fugerit.java.poc.fop.custom.resource.resolver.ClassLoaderResourceResolver - TestClassLoaderResourceResolver.getResource() -> file:/omnia/workspace/git/fop-custom-resource-resolver-poc/./src/main/resources/font/TitilliumWeb-Italic.ttf
+2022-11-20 19:15:17.655 [main] INFO  org.fugerit.java.poc.fop.custom.resource.resolver.ClassLoaderResourceResolver - TestClassLoaderResourceResolver.getResource() -> file:/omnia/workspace/git/fop-custom-resource-resolver-poc/./target/classes/font/TitilliumWeb-Regular.ttf
+2022-11-20 19:15:17.657 [main] INFO  org.fugerit.java.poc.fop.custom.resource.resolver.ClassLoaderResourceResolver - TestClassLoaderResourceResolver.getResource() -> file:/omnia/workspace/git/fop-custom-resource-resolver-poc/./target/classes/font/TitilliumWeb-Bold.ttf
+2022-11-20 19:15:17.660 [main] INFO  org.fugerit.java.poc.fop.custom.resource.resolver.ClassLoaderResourceResolver - TestClassLoaderResourceResolver.getResource() -> file:/omnia/workspace/git/fop-custom-resource-resolver-poc/./target/classes/font/TitilliumWeb-BoldItalic.ttf
+2022-11-20 19:15:17.662 [main] INFO  org.fugerit.java.poc.fop.custom.resource.resolver.ClassLoaderResourceResolver - TestClassLoaderResourceResolver.getResource() -> file:/omnia/workspace/git/fop-custom-resource-resolver-poc/./target/classes/font/TitilliumWeb-Italic.ttf
+2022-11-20 19:15:17.852 [main] INFO  org.fugerit.java.poc.fop.custom.resource.resolver.ClassLoaderResourceResolver - TestClassLoaderResourceResolver.getResource() -> classpath://font/TitilliumWeb-Regular.ttf
+2022-11-20 19:15:17.904 [main] INFO  org.apache.fop.apps.FOUserAgent - Rendered page #1.
+2022-11-20 19:15:17.905 [main] INFO  org.fugerit.java.poc.fop.custom.resource.resolver.ClassLoaderResourceResolver - TestClassLoaderResourceResolver.getResource() -> classpath://font/TitilliumWeb-Regular.ttf
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.911 s - in test.TestDocGeneration
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- maven-jar-plugin:3.3.0:jar (default-jar) @ fop-custom-resource-resolver-poc ---
+[INFO] Building jar: /omnia/workspace/git/fop-custom-resource-resolver-poc/target/fop-custom-resource-resolver-poc-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ fop-custom-resource-resolver-poc ---
+[INFO] Installing /omnia/workspace/git/fop-custom-resource-resolver-poc/target/fop-custom-resource-resolver-poc-1.0-SNAPSHOT.jar to /omnia/workspace/runtime/java/maven_local_repo/org/fugerit/java/poc/fop-custom-resource-resolver-poc/1.0-SNAPSHOT/fop-custom-resource-resolver-poc-1.0-SNAPSHOT.jar
+[INFO] Installing /omnia/workspace/git/fop-custom-resource-resolver-poc/pom.xml to /omnia/workspace/runtime/java/maven_local_repo/org/fugerit/java/poc/fop-custom-resource-resolver-poc/1.0-SNAPSHOT/fop-custom-resource-resolver-poc-1.0-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.444 s (Wall Clock)
+[INFO] Finished at: 2022-11-20T19:15:18+01:00
+[INFO] ------------------------------------------------------------------------
